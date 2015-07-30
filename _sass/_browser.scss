@@ -1,0 +1,71 @@
+.dn-browser {
+  margin-top: 24px;
+  &-header {
+    font-family: 'Open Sans';
+    position: relative;
+    overflow: hidden;
+    height: 56px;
+    line-height: 56px;
+    color: #FFF;
+    background: #222;
+    letter-spacing: 0.2px;
+    -webkit-border-radius: 8px;
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius: 8px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-radius: 8px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  &-button {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 28px;
+    &__circle {
+      width: 12px;
+      height: 12px;
+      background: #323232;
+      -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+      border-radius: 12px;
+      margin: 2px;
+    }
+  }
+  &-body {
+    background: #fff;
+    overflow: hidden;
+    border-left: 2px solid #E8E8E8;
+    border-right: 2px solid #E8E8E8;
+    border-bottom: 2px solid #e8e8e8;
+    -webkit-border-radius: 8px;
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius: 8px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-topleft: 0px;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    margin-bottom: 24px;
+    &__item {
+      position: relative;
+      margin: 40px;
+      overflow: hidden;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px;
+    }
+    &__pre {
+      padding: 40px 40px 0 40px;
+    }
+  }
+  &-footer {
+    background: #E8E8E8;
+    border: 2px solid #E8E8E8;
+  }
+}

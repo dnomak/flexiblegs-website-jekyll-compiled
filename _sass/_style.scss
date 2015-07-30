@@ -1,0 +1,163 @@
+.dn-style--love {
+  letter-spacing: 0.2px;
+  margin: 0 0 24px 0;
+  line-height: 24px;
+  display: inline-block;
+  color: #a1a1a1;
+  b {
+    color: #EB4A2C;
+  }
+}
+.hede2 {
+  position: fixed;
+  padding-right: 18px;
+}
+@media (max-width: 1024px) {
+ .hede2 {
+  position: static;
+    padding-right: 18px;
+  }
+  .dn-style--love {
+    margin-bottom: 0;
+  }
+}
+.hede {
+  position: relative;
+  background: #fff;
+  color: #222222;
+  border: 2px solid #e8e8e8;
+  margin: 0;
+  padding: 24px 16px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+    #macbook{
+      width: 100px;
+      height: 58px;
+    }
+    #macbook .path1 {
+      fill:#ffffff;
+    }
+    #macbook .path2 {
+      fill:#222;
+    }
+
+    #ipad-landscape{
+      margin: 19px 0 9px 0;
+      width: 58px;
+      height: 40px;
+    }
+    #ipad-landscape .path1 {
+      fill:#ffffff;
+    }
+    #ipad-landscape .path2 {
+      fill:#222;
+    }
+
+    #ipad-portrait{
+      margin-top: 10px;
+      width: 40px;
+      height: 58px;
+    }
+    #ipad-portrait .path1 {
+      fill:#ffffff;
+    }
+    #ipad-portrait .path2 {
+      fill:#222;
+    }
+
+    #iphone-landscape{
+      margin: 25px 0 15px 0;
+      width: 58px;
+      height: 28px;
+    }
+    #iphone-landscape .path1 {
+      fill:#ffffff;
+    }
+    #iphone-landscape .path2 {
+      fill:#222;
+    }
+
+    #iphone-portrait{
+      margin-top: 10px;
+      width: 28px;
+      height: 56px;
+    }
+    #iphone-portrait .path1 {
+      fill:#ffffff;
+    }
+    #iphone-portrait .path2 {
+      fill:#222;
+    }
+
+#css,
+#bem-css,
+#scss-plus,
+#sass-plus,
+#less-plus,
+#stylus-plus {
+  display: none;
+}
+#css--menu,
+#bem-css--menu,
+#scss-plus--menu,
+#sass-plus--menu,
+#less-plus--menu,
+#stylus-plus--menu {
+  display: none;
+}
+
+.dn-style {
+  &--title {
+    text-align: center;
+    font-size: 18px;
+    span {
+      font-weight: bold;
+    }
+  }
+  &--space {
+    height: 40px;
+    line-height: 40px;
+    width: 8px;
+    margin: 0 auto;
+  }
+  &--vertical-line {
+    height: 96px;
+    line-height: 96px;
+    width: 8px;
+    margin: 0 auto;
+    background: #e8e8e8;
+  }
+  &--wrap {
+    background: #FED5D6;
+    min-height: 48px;
+    position: relative;
+  }
+  &--col {
+    display: block;
+    color: rgba(255, 255, 255, 1);
+    background: #3A99D8;
+    line-height: 48px;
+    min-height: 48px;
+    padding: 0 24px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    span {
+      color: rgba(255, 255, 255, 0.2);
+    }
+  }
+  &--height-96 {
+    // style="height: 96px; line-height: 96px;"
+  }
+  &--height-144 {
+    // style="height: 144px;"
+  }
+  &--height-256 {
+    // style="height: 256px;"
+  }
+  &--inline-block {
+    // style="display: inline-block;"
+  }
+}

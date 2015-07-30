@@ -1,0 +1,90 @@
+.dn-tag {
+  font-family: 'Source Code Pro';
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  padding: 0 16px;
+  height: 24px;
+  line-height: 22px;
+  color: #fff;
+  background: #E74C3C;
+  text-align: center;
+  display: inline-block;
+  &--button {
+    cursor: pointer;
+    height: 36px;
+    line-height: 36px;
+  }
+  &--center {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-border-radius: 8px;
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    -moz-border-radius: 8px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  &--top {
+    top: 0;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 8px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 8px;
+  }
+  &--bottom {
+    bottom: 0;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  &--red {
+    background: #E74C3C;
+  }
+  &--green {
+    background: #2ECC71;
+  }
+  &--purple {
+    background: #9D52BA;
+  }
+  &--gray {
+    background: #E8E8E8;
+    color: #a1a1a1;
+    &.dn-tag--button {
+      background: #fff;
+      color: #222;
+    }
+  }
+  &--black {
+    background: #323232;
+    color: #fff;
+  }
+  &--link {
+    cursor: pointer;
+    &:hover {
+      background: #323232;
+    }
+  }
+
+}
