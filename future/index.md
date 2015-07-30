@@ -43,7 +43,7 @@ permalink: /future/
           </li>
           <li><a href="https://github.com/flexiblegs/grid-builder">Flexible <b>Grid Builder</b></a></li>
           <li>Flexible <b>Frontend Editor</b></li>
-          <li>Flexible Shop
+          <li>Flexible <b>Shop</b>
             <ul>
               <li>Mug</li>
               <li>Shirt</li>

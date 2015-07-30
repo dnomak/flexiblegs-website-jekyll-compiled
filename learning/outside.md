@@ -48,8 +48,8 @@ permalink: /learning/outside/
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-right xl-auto">
           <div class="col">
-            <a href="http://codepen.io/dnomak/" class="dn-button dn-button--link dn-button--right">
-              http://codepen.io/dnomak/
+            <a href="http://codepen.io/dnomak/pen/bdObpN?editors=110" class="dn-button dn-button--link dn-button--right">
+              http://codepen.io/dnomak/pen/bdObpN
             </a>
           </div>
         </div>
