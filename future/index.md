@@ -27,7 +27,7 @@ permalink: /future/
           <input type="image" src="/img/paypal-logo.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
           <img alt="" border="0" src="https://www.paypalobjects.com/tr_TR/i/scr/pixel.gif" width="1" height="1" alt="PayPal">
         </form>
-        <p>Gelecek planlarını daha hızlı uygulayabilmemiz için <b>PayPal</b> aracılığıyla bağış yapabilirsiniz :)</p>
+        <p>To make our future plans a reality you can support us via <b>PayPal</b> :)</p>
         <ul>
           <li><b>Flexible Grid System</b>
             <ul>
