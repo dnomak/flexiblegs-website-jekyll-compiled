@@ -195,10 +195,10 @@ $(document).on("ready", function() {
         $(".dn-menu--learning-child__not-reverse").addClass("is-active");
       }
 
-    // browser-support
+    // support
 
-      if (window.location.pathname == "/browsers/") {
-        $("#menu--browsers").addClass("is-active");
+      if (window.location.pathname == "/support/") {
+        $("#menu--support").addClass("is-active");
       }
 
     // team
