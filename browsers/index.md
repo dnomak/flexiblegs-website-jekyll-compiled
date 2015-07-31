@@ -21,9 +21,9 @@ permalink: /browsers/
   <div class="dn-browser-body">
     <div class="dn-browser-body__item">
         <div class="dn-content">
-          <p><b>Responsive Design</b> olarak kodlama yapıyorsak <b>Media Queries</b> kullanımından kaynaklı <b>Internet Explorer 9 ve üzeri</b> versiyonları,</p>
-          <p><b>Flexbox</b> özelliğini kullanıyorsak <b>Internet Explorer 10 ve üzeri</b> versiyonları desteklemek zorunda kalıyoruz. <b>Flexbox</b> özelliğini mobil cihazlardaki tasarım kontrolünü kolaylaştırmak için kullandığımızı düşünürsek tarayıcı desteği mobil'e geçtiğinde uyumluluğu otomatikman sağlamış oluruz.</p>
-          <p>Yukarıdaki iki durum dışında tüm masaüstü ve mobil tarayıcılara destek verilmektedir.</p>
+          <p>If you use <b>Responsive Design</b> because of <b>Media Queries</b> we support <b>Internet Explorer 9 and +</b> versions,</p>
+          <p>If you use <b>Flexbox</b> we support <b>Internet Explorer 10 and +/b> versions.
+          <p>Other than the two exceptions above we supprt all the major desktop and mobile browsers.</p>
         </div>
     </div>
   </div>

@@ -21,15 +21,16 @@ permalink: /install/
   <div class="dn-browser-body">
     <div class="dn-browser-body__item">
       <div class="dn-content">
-        <p>Kuruluma başlamadan önce <b>HTML</b>, <b>CSS</b> veya <b>Sass</b>, <b>Less</b> yada <b>Stylus</b> bilmeniz gerekmektedir.</p>
+        <p>Before installation, we assume that you know <b>HTML</b>, <b>CSS</b> or <b>Sass</b>, <b>Less</b> or <b>Stylus</b>.</p>
         <p>
-          Flexible Grid System ile kod yazmanın iki yöntemi bulunmaktadır. Bunlar Statik ve Dinamik olmak üzere ikiye ayrılır. İki yöntemi aynı anda yada ayrı ayrı kullanmanız mümkündür.
+          There are two methods of developing with Flexible Grid System. These methods are Static and Dynamic. You can use the both method at the same time or independently.
         </p>
         <div class="wrap xl-2 xl-top xl-gutter-24">
           <div class="col">
             <p><b>Static</b></p>
             <p>
-              Statik yönetimi tercih ederseniz Flexible Grid System'in CSS, Sass, Less veya Stylus ile hazırlanmış sabit <b>class</b>larını kullanarak <b>HTML</b> kısmında kodlama yapabilirsiniz.
+              If you choose the Static method. You can use the default and static <b>class</b>es of Flexible Grid System to code your
+              <b>HTML</b>.
             </p>
             <ul>
               <li><a href="/install/css/">CSS</a></li>
@@ -43,7 +44,7 @@ permalink: /install/
           <div class="col">
             <p><b>Dynamic</b></p>
             <p>
-              Dinamik yöntemi tercih ederseniz Flexible Grid System'in Sass, Less veya Stylus ile hazırlanmış <b>mixin</b>lerini kullanarak <b>CSS</b> kısmında kodlama yapabilirsiniz.
+              If you choose the Dynamic method. You can use Sass, Less or Stylus <b>mixin</b>s to code your <b>CSS</b>.
             </p>
             <ul>
               <li><a href="/install/scss-plus/">Scss Plus</a></li>

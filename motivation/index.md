@@ -21,7 +21,7 @@ permalink: /motivation/
   <div class="dn-browser-body">
     <div class="dn-browser-body__item">
       <div class="dn-content">
-        <p>Projeye dört elle sarılmamızı sağlayan bazı linkler :)</p>
+        <p>The links that makes us super happy and motivated :)</p>
         <ul>
           <li><a href="https://github.com/showcases/design-essentials">github.com</a></li>
           <li><a href="http://sass-lang.com/community">sass-lang.com</a></li>
