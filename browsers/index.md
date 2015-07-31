@@ -22,7 +22,7 @@ permalink: /browsers/
     <div class="dn-browser-body__item">
         <div class="dn-content">
           <p>If you use <b>Responsive Design</b> because of <b>Media Queries</b> we support <b>Internet Explorer 9 and +</b> versions,</p>
-          <p>If you use <b>Flexbox</b> we support <b>Internet Explorer 10 and +/b> versions.
+          <p>If you use <b>Flexbox</b> we support <b>Internet Explorer 10 and +</b> versions.
           <p>Other than the two exceptions above we supprt all the major desktop and mobile browsers.</p>
         </div>
     </div>
