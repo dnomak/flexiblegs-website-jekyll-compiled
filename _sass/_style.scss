@@ -8,13 +8,24 @@
     color: #EB4A2C;
   }
 }
+.hede {
+  position: relative;
+  background: #fff;
+  color: #222222;
+  border: 2px solid #e8e8e8;
+  margin: 0;
+  padding: 24px 16px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
 .hede2 {
   position: fixed;
   padding-right: 18px;
 }
 @media (max-width: 1024px) {
     .hede {
-      border: 0;
+      border: 0!important;
     }
   .hede3 {
     max-height: auto!important;
@@ -27,17 +38,7 @@
     margin-bottom: 0;
   }
 }
-.hede {
-  position: relative;
-  background: #fff;
-  color: #222222;
-  border: 2px solid #e8e8e8;
-  margin: 0;
-  padding: 24px 16px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-}
+
     #macbook{
       width: 100px;
       height: 58px;
