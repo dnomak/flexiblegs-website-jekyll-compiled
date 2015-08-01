@@ -23,9 +23,9 @@ permalink: /learning/table/
       <div class="dn-browser-body__pre">
         <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button">view compiled</div><div class="dn-tag dn-tag--gray dn-tag--bottom">html</div><!--
           -->&lt;div class="wrap <span>xl-table</span> xl-gutter-24"&gt;<br/><!--
-          -->  &lt;div class="col" style="width: 124px;"&gt;01&lt;/div&gt;<br/><!--
+          -->  &lt;div class="col" <span>style="width: 124px;"</span>&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="col"&gt;02&lt;/div&gt;<br/><!--
-          -->  &lt;div class="col" style="width: 224px;"&gt;03&lt;/div&gt;<br/><!--
+          -->  &lt;div class="col" <span>style="width: 224px;"</span>&gt;03&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
         --></pre>
         <pre class="is-compiled"><div class="dn-tag dn-tag--black dn-tag--top dn-tag--button">close</div><!--
