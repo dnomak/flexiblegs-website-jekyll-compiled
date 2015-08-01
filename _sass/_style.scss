@@ -8,9 +8,6 @@
     color: #EB4A2C;
   }
 }
-.hede3 {
-  overflow: scroll; max-height: calc(100vh - 284px);
-}
 .hede2 {
   position: fixed;
   padding-right: 18px;
@@ -20,8 +17,7 @@
       border: 0;
     }
   .hede3 {
-
-    max-height: auto;
+    max-height: auto!important;
   }
  .hede2 {
   position: static;
