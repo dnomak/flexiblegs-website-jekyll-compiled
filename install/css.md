@@ -23,7 +23,7 @@ permalink: /install/css/
       <a class="dn-title" href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-css/master/flexiblegs.css" download>Download</a>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">html</div><!--
         --><div class="comment">&lt;head&gt;<br/><!--
-        -->  &lt;link rel="stylesheet" href="<span>flexiblegs.min.css</span>"&gt;<br/><!--
+        -->  &lt;link rel="stylesheet" href="<span>flexiblegs.css</span>"&gt;<br/><!--
         -->&lt;/head&gt;</div><!--
       --></pre>
       <div class="dn-style--space"></div>
