@@ -36,8 +36,8 @@ permalink: /support/
             <div class="col">
               <p><b>Framework Support</b>
                 <ul style="padding-top:0;">
-                  <li><a href="http://getbootstrap.com">Bootstrap</a></li>
-                  <li><a href="http://foundation.zurb.com">Foundation</a> and more :)</li>
+                  <li>Bootstrap</li>
+                  <li>Foundation and more :)</li>
                 </ul>
               </p>
             </div>
