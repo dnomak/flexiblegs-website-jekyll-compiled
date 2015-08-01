@@ -23,6 +23,10 @@
   position: fixed;
   padding-right: 18px;
 }
+.hede3 {
+  overflow: scroll;
+  max-height: calc(100vh - 284px);
+}
 @media (max-width: 1024px) {
     .hede {
       border: 0!important;
@@ -32,7 +36,7 @@
   }
  .hede2 {
   position: static;
-    padding-right: 18px;
+  padding-right: 18px;
   }
   .dn-style--love {
     margin-bottom: 0;

@@ -21,7 +21,7 @@ permalink: /support/
   <div class="dn-browser-body">
     <div class="dn-browser-body__item">
         <div class="dn-content">
-          <div class="wrap xl-top xl-2">
+          <div class="wrap xl-top xl-2 lg-1">
             <div class="col">
               <p><b>Browser Support</b>
                 <ul style="padding-top:0;">
