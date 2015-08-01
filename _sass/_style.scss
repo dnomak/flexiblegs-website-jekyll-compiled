@@ -23,16 +23,12 @@
   position: fixed;
   padding-right: 18px;
 }
-.hede3 {
-  overflow: scroll;
-  max-height: calc(100vh - 284px);
-}
 @media (max-width: 1024px) {
     .hede {
       border: 0!important;
     }
   .hede3 {
-    max-height: auto!important;
+    max-height: 1200px!important;
   }
  .hede2 {
   position: static;
