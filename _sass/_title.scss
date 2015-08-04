@@ -1,0 +1,14 @@
+.dn-title {
+  text-align: left;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  padding: 0 0 16px 0;
+  font-size: 18px;
+  font-weight: normal;
+  display: inline-block;
+  color: #222;
+  &:hover {
+    color: #2B97DE;
+  }
+}

@@ -14,9 +14,7 @@ permalink: /learning/outside/
           <div class="col"><div class="dn-browser-button__circle"></div></div>
         </div>
       </div>
-      <div class="dn-style--title">
-        wrap(<span>outside</span>(@gutter)) (css)
-      </div>
+      <div class="dn-style--title">wrap(<span>outside</span>(@gutter)) (css)</div>
       <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
     </div>
     <div class="dn-browser-body">

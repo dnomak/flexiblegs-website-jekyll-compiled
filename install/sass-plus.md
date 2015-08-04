@@ -13,9 +13,7 @@ permalink: /install/sass-plus/
         <div class="col"><div class="dn-browser-button__circle"></div></div>
       </div>
     </div>
-    <div class="dn-style--title">
-      <span>sass-plus</span>
-    </div>
+    <div class="dn-style--title"><span>sass-plus</span></div>
     <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
   </div>
   <div class="dn-browser-body">
@@ -24,13 +22,13 @@ permalink: /install/sass-plus/
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">sass</div><!--
         --><div class="comment">@import "<span>flexiblegs</span>"</div><!--
       --></pre>
-      <div class="dn-style--space"></div>
+      <div class="dn-space-40"></div>
       <a class="dn-title" href="http://bower.io">Bower</a>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">terminal</div><!--
         --><div class="comment">$ bower install --save <span>flexiblegs-sass-plus</span></div><!--
       --></pre>
     </div>
-    <div class="dn-style--space"></div>
+    <div class="dn-space-40"></div>
     <div class="dn-browser-footer">
       <div class="wrap xl-gutter-24 xl-outside-24 xl-right xl-auto">
         <div class="col">

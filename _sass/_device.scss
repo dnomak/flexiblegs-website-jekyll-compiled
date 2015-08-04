@@ -1,0 +1,52 @@
+.dn-device {
+  position: relative;
+  background: #fff;
+  color: #222222;
+  border: 2px solid #e8e8e8;
+  margin: 0;
+  padding: 24px 16px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  .is-backend {
+    fill:#ffffff;
+  }
+  .is-frontend {
+    fill:#222;
+  }
+  &--macbook {
+    svg {
+      margin: 5px 0;
+      width: 100px;
+      height: 58px;
+    }
+  }
+  &--ipad-landscape {
+    svg {
+      margin: 19px 0 9px 0;
+      width: 58px;
+      height: 40px;
+    }
+  }
+  &--ipad-portrait {
+    svg {
+      margin-top: 10px;
+      width: 40px;
+      height: 58px;
+    }
+  }
+  &--iphone-landscape {
+    svg {
+      margin: 25px 0 15px 0;
+      width: 58px;
+      height: 28px;
+    }
+  }
+  &--iphone-portrait {
+    svg {
+      margin-top: 10px;
+      width: 28px;
+      height: 56px;
+    }
+  }
+}

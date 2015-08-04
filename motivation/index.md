@@ -13,15 +13,16 @@ permalink: /motivation/
         <div class="col"><div class="dn-browser-button__circle"></div></div>
       </div>
     </div>
-    <div class="dn-style--title">
-      Motivation
-    </div>
+    <div class="dn-style--title">Motivation</div>
+    <!-- <div class="dn-style--title">Motivasyon</div> -->
     <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
   </div>
   <div class="dn-browser-body">
     <div class="dn-browser-body__item">
       <div class="dn-content">
         <p>The links that makes us super happy and motivated :)</p>
+        <!-- <p>Projeye dört elle sarılmamızı sağlayan bazı linkler :)</p> -->
+        <div class="dn-space-16"></div>
         <ul>
           <li><a href="https://github.com/showcases/design-essentials">github.com</a></li>
           <li><a href="http://sass-lang.com/community">sass-lang.com</a></li>

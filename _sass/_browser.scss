@@ -63,6 +63,10 @@
     &__pre {
       padding: 40px 40px 0 40px;
     }
+    &--menu {
+      overflow: scroll;
+      max-height: calc(100vh - 284px);
+    }
   }
   &-footer {
     background: #E8E8E8;

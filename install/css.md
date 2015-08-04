@@ -13,9 +13,7 @@ permalink: /install/css/
         <div class="col"><div class="dn-browser-button__circle"></div></div>
       </div>
     </div>
-    <div class="dn-style--title">
-      <span>css</span>
-    </div>
+    <div class="dn-style--title"><span>css</span></div>
     <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
   </div>
   <div class="dn-browser-body">
@@ -26,13 +24,13 @@ permalink: /install/css/
         -->  &lt;link rel="stylesheet" href="<span>flexiblegs.css</span>"&gt;<br/><!--
         -->&lt;/head&gt;</div><!--
       --></pre>
-      <div class="dn-style--space"></div>
+      <div class="dn-space-40"></div>
       <a class="dn-title" href="http://bower.io">Bower</a>
       <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">terminal</div><!--
         --><div class="comment">$ bower install --save <span>flexiblegs-css</span></div><!--
       --></pre>
     </div>
-    <div class="dn-style--space"></div>
+    <div class="dn-space-40"></div>
     <div class="dn-browser-footer">
       <div class="wrap xl-gutter-24 xl-outside-24 xl-right xl-auto">
         <div class="col">
