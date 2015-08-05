@@ -1,7 +1,7 @@
 ---
 layout: default
 title: wrap(align(middle))
-permalink: /learning/middle/
+permalink: /learn/middle/
 ---
 
 <div id="css">

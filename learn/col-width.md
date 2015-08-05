@@ -1,7 +1,7 @@
 ---
 layout: default
 title: col(@width)
-permalink: /learning/col-width/
+permalink: /learn/col-width/
 ---
 
 <div id="css">

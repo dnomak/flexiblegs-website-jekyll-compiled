@@ -1,7 +1,7 @@
 ---
 layout: default
 title: wrap(align(bottom))
-permalink: /learning/bottom/
+permalink: /learn/bottom/
 ---
 
 <div id="css">

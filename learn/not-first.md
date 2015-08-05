@@ -1,7 +1,7 @@
 ---
 layout: default
-title: wrap(align(left))
-permalink: /learning/left/
+title: col(align(not-first))
+permalink: /learn/not-first/
 ---
 
 <div id="css">
@@ -14,25 +14,29 @@ permalink: /learning/left/
           <div class="col"><div class="dn-browser-button__circle"></div></div>
         </div>
       </div>
-      <div class="dn-style--title">wrap(align(<span>left</span>)) (css)</div>
+      <div class="dn-style--title">col(align(<span>not-first</span>)) (css)</div>
       <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
         <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button">view compiled</div><div class="dn-tag dn-tag--gray dn-tag--bottom">html</div><!--
-          -->&lt;div class="wrap <span>xl-left</span>"&gt;<br/><!--
-          -->  &lt;div class="col xl-6-12"&gt;02&lt;/div&gt;<br/><!--
+          -->&lt;div class="wrap xl-flexbox xl-gutter-24 xl-3"&gt;<br/><!--
+          -->  &lt;div class="col"&gt;01&lt;/div&gt;<br/><!--
+          -->  &lt;div class="col"&gt;02&lt;/div&gt;<br/><!--
+          -->  &lt;div class="col <span>xl-not-first</span>"&gt;03&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
         --></pre>
         <pre class="is-compiled"><div class="dn-tag dn-tag--black dn-tag--top dn-tag--button">close</div><!--
-          --><span>wrap(align(left))</span><br/><!--
-          -->  justify-content: flex-start;<br/><!--
-          -->  text-align: left;<!--
+          --><span>wrap > col(align(not-first))</span><br/><!--
+          -->  order: 0;<br/><!--
         --></pre>
       </div>
       <div class="dn-browser-body__item">
-        <div class="wrap xl-left dn-style--wrap">
-          <div class="col xl-6-12"><div class="dn-style--col">02</div></div>
+        <div class="dn-tag dn-tag--red dn-tag--center">flexbox</div>
+        <div class="wrap xl-flexbox xl-gutter-24 xl-3 dn-style--wrap">
+          <div class="col"><div class="dn-style--col">01</div></div>
+          <div class="col"><div class="dn-style--col">02</div></div>
+          <div class="col xl-not-first"><div class="dn-style--col">03</div></div>
         </div>
       </div>
       <div class="dn-browser-footer">

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: wrap(auto)
-permalink: /learning/auto/
+permalink: /learn/auto/
 ---
 
 <div id="css">
