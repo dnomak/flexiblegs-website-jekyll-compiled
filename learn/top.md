@@ -44,8 +44,8 @@ permalink: /learn/top/
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="http://codepen.io/dnomak/" class="dn-button dn-button--link">
-              http://codepen.io/dnomak/
+            <a href="http://codepen.io/dnomak/pen/xGMXej?editors=110" class="dn-button dn-button--link">
+              http://codepen.io/dnomak/pen/xGMXej
             </a>
           </div>
         </div>
