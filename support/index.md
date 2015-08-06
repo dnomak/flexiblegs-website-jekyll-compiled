@@ -6,13 +6,7 @@ permalink: /support/
 
 <div class="dn-browser">
   <div class="dn-browser-header">
-    <div class="dn-browser-button">
-      <div class="wrap xl-auto">
-        <div class="col"><div class="dn-browser-button__circle"></div></div>
-        <div class="col"><div class="dn-browser-button__circle"></div></div>
-        <div class="col"><div class="dn-browser-button__circle"></div></div>
-      </div>
-    </div>
+    {% include browser-button.html %}
     <div class="dn-style--title">Support</div>
     <!-- <div class="dn-style--title">Destek</div> -->
     <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>

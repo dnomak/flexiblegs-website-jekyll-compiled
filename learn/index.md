@@ -6,13 +6,7 @@ permalink: /learn/
 
 <div class="dn-browser">
   <div class="dn-browser-header">
-    <div class="dn-browser-button">
-      <div class="wrap xl-auto">
-        <div class="col"><div class="dn-browser-button__circle"></div></div>
-        <div class="col"><div class="dn-browser-button__circle"></div></div>
-        <div class="col"><div class="dn-browser-button__circle"></div></div>
-      </div>
-    </div>
+    {% include browser-button.html %}
     <div class="dn-style--title">Learn</div>
     <!-- <div class="dn-style--title">Öğrenme</div> -->
     <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
@@ -52,7 +46,7 @@ permalink: /learn/
             <div class="dn-space-16"></div>
             <ul>
               <li><a href="/learn/wrap/?framework=css">CSS</a></li>
-              <li><span>BEM CSS</span></li>
+              <li><a href="/learn/wrap/?framework=bem-css">BEM CSS</a></li>
               <li><span class="is-line-through">Scss</span></li>
               <li><span class="is-line-through">Sass</span></li>
               <li><span class="is-line-through">Less</span></li>
