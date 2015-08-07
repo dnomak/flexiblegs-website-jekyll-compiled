@@ -13,7 +13,7 @@ permalink: /install/sass-plus/
   <div class="dn-browser-body">
     <div class="dn-browser-body__pre">
       <a class="dn-title" href="https://raw.githubusercontent.com/flexiblegs/flexiblegs-sass-plus/master/flexiblegs.sass" download>Download</a>
-      <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">sass</div><!--
+      <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
         --><div class="comment">@import "<span>flexiblegs</span>"</div><!--
       --></pre>
       <div class="dn-space-40"></div>

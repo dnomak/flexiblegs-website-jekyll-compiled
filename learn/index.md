@@ -19,7 +19,7 @@ permalink: /learn/
         <div class="dn-space-16"></div>
         <p><b>Responsive Meta</b></p>
         <div class="dn-space-16"></div>
-        <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">html</div><!--
+        <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           --><div class="comment">&lt;head&gt;<br/><!--
           -->  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;<br/><!--
           -->&lt;/head&gt;</div><!--
