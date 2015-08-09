@@ -60,9 +60,9 @@ permalink: /learn/
             <div class="dn-space-16"></div>
             <ul>
               <li><a href="/learn/wrap/?framework=scss-plus">Scss Plus</a></li>
-              <li><span>Sass Plus</span></li>
-              <li><span>Less Plus</span></li>
-              <li><span>Stylus Plus</span></li>
+              <li><a href="/learn/wrap/?framework=sass-plus">Sass Plus</a></li>
+              <li><a href="/learn/wrap/?framework=less-plus">Less Plus</a></li>
+              <li><a href="/learn/wrap/?framework=stylus-plus">Stylus Plus</a></li>
             </ul>
           </div>
         </div>
