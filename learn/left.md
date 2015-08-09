@@ -197,3 +197,47 @@ permalink: /learn/left/
     </div>
   </div>
 </div>
+
+<div id="stylus-plus">
+  <div class="dn-browser">
+    <div class="dn-browser-header">
+      {% include browser-button.html %}
+      <div class="dn-style--title">wrap(<span>left</span>) (stylus-plus)</div>
+      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+    </div>
+    <div class="dn-browser-body">
+      <div class="dn-browser-body__pre">
+        <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
+          <div class="col">
+            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+              -->&lt;div class="example"&gt;<br/><!--
+              -->  &lt;div class="example__item two"&gt;02&lt;/div&gt;<br/><!--
+              -->&lt;/div&gt;<!--
+            --></pre>
+            <br class="xl-hidden lg-not-hidden" />
+          </div>
+          <div class="col">
+            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
+              -->.example<br/><!--
+              -->  wrap()<br/><!--
+              -->  <span>wrap(left)</span><br/><!--
+              -->  &__item<br/><!--
+              -->    col()<br/><!--
+              -->    &.two<br/><!--
+              -->      col(6,12)<!--
+            --></pre>
+            {% include left/is-compiled.html %}
+          </div>
+        </div>
+      </div>
+      {% include left/preview.html %}
+      <div class="dn-browser-footer">
+        <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
+          <div class="col">
+            <a href="https://github.com/flexiblegs/flexiblegs-stylus-plus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-stylus-plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
