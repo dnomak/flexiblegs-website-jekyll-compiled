@@ -26,9 +26,7 @@ permalink: /learn/table/
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="http://codepen.io/dnomak/pen/RPEbRv?editors=110" class="dn-button dn-button--link">
-              http://codepen.io/dnomak/pen/RPEbRv
-            </a>
+            <a href="http://codepen.io/dnomak/pen/RPEbRv?editors=110" class="dn-button dn-button--link">http://codepen.io/dnomak/pen/RPEbRv</a>
           </div>
         </div>
       </div>
@@ -58,7 +56,7 @@ permalink: /learn/table/
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="http://codepen.io/dnomak/" class="dn-button dn-button--link">http://codepen.io/dnomak/</a>
+            <a href="https://github.com/flexiblegs/flexiblegs-bem-css" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-bem-css</a>
           </div>
         </div>
       </div>
@@ -75,13 +73,12 @@ permalink: /learn/table/
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-
         <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
           <div class="col">
             <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
               -->&lt;div class="example"&gt;<br/><!--
               -->  &lt;div class="example__item one"&gt;01&lt;/div&gt;<br/><!--
-              -->  &lt;div class="example__item two"&gt;02&lt;/div&gt;<br/><!--
+              -->  &lt;div class="example__item"&gt;02&lt;/div&gt;<br/><!--
               -->  &lt;div class="example__item three"&gt;03&lt;/div&gt;<br/><!--
               -->&lt;/div&gt;<!--
             --></pre>
@@ -89,22 +86,30 @@ permalink: /learn/table/
           </div>
           <div class="col">
             <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
-              -->&lt;div class="wrap <span>wrap--xl-table</span> wrap--xl-gutter-24"&gt;<br/><!--
-              -->  &lt;div class="wrap__col" style="width: 112px;"&gt;01&lt;/div&gt;<br/><!--
-              -->  &lt;div class="wrap__col"&gt;02&lt;/div&gt;<br/><!--
-              -->  &lt;div class="wrap__col" style="width: 212px;"&gt;03&lt;/div&gt;<br/><!--
-              -->&lt;/div&gt;<!--
+              -->.example {<br/><!--
+              -->  @include wrap;<br/><!--
+              -->  @include <span>wrap(table)</span>;<br/><!--
+              -->  @include wrap(gutter,24px);<br/><!--
+              -->  &__item {<br/><!--
+              -->    @include col;<br/><!--
+              -->    &.one {<br/><!--
+              -->      width: 112px;<br/><!--
+              -->    }<br/><!--
+              -->    &.three {<br/><!--
+              -->      width: 212px;<br/><!--
+              -->    }<br/><!--
+              -->  }<br/><!--
+              -->}<!--
             --></pre>
             {% include table/is-compiled.html %}
           </div>
         </div>
-
       </div>
       {% include table/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="http://codepen.io/dnomak/" class="dn-button dn-button--link">http://codepen.io/dnomak/</a>
+            <a href="https://github.com/flexiblegs/flexiblegs-scss-plus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-scss-plus</a>
           </div>
         </div>
       </div>

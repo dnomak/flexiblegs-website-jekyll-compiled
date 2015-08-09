@@ -24,9 +24,7 @@ permalink: /learn/col/
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="http://codepen.io/dnomak/pen/jPpXzB?editors=110" class="dn-button dn-button--link">
-              http://codepen.io/dnomak/pen/jPpXzB
-            </a>
+            <a href="http://codepen.io/dnomak/pen/jPpXzB?editors=110" class="dn-button dn-button--link">http://codepen.io/dnomak/pen/jPpXzB</a>
           </div>
         </div>
       </div>
@@ -54,7 +52,7 @@ permalink: /learn/col/
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="http://codepen.io/dnomak/" class="dn-button dn-button--link">http://codepen.io/dnomak/</a>
+            <a href="https://github.com/flexiblegs/flexiblegs-bem-css" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-bem-css</a>
           </div>
         </div>
       </div>
@@ -97,9 +95,7 @@ permalink: /learn/col/
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="http://codepen.io/dnomak/" class="dn-button dn-button--link">
-              http://codepen.io/dnomak/
-            </a>
+            <a href="https://github.com/flexiblegs/flexiblegs-scss-plus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-scss-plus</a>
           </div>
         </div>
       </div>

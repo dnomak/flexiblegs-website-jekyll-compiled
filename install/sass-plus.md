@@ -26,9 +26,7 @@ permalink: /install/sass-plus/
     <div class="dn-browser-footer">
       <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
         <div class="col">
-          <a href="https://github.com/flexiblegs/flexiblegs-sass-plus" class="dn-button dn-button--link">
-            https://github.com/flexiblegs/flexiblegs-sass-plus
-          </a>
+          <a href="https://github.com/flexiblegs/flexiblegs-sass-plus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-sass-plus</a>
         </div>
       </div>
     </div>

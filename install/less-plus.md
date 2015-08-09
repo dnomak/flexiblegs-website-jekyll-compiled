@@ -26,9 +26,7 @@ permalink: /install/less-plus/
     <div class="dn-browser-footer">
       <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
         <div class="col">
-          <a href="https://github.com/flexiblegs/flexiblegs-less-plus" class="dn-button dn-button--link">
-            https://github.com/flexiblegs/flexiblegs-less-plus
-          </a>
+          <a href="https://github.com/flexiblegs/flexiblegs-less-plus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-less-plus</a>
         </div>
       </div>
     </div>

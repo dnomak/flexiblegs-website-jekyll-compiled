@@ -27,9 +27,7 @@ permalink: /learn/gutter/
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="http://codepen.io/dnomak/pen/qdLWbY?editors=110" class="dn-button dn-button--link">
-              http://codepen.io/dnomak/pen/qdLWbY
-            </a>
+            <a href="http://codepen.io/dnomak/pen/qdLWbY?editors=110" class="dn-button dn-button--link">http://codepen.io/dnomak/pen/qdLWbY</a>
           </div>
         </div>
       </div>
@@ -60,7 +58,7 @@ permalink: /learn/gutter/
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="http://codepen.io/dnomak/" class="dn-button dn-button--link">http://codepen.io/dnomak/</a>
+            <a href="https://github.com/flexiblegs/flexiblegs-bem-css" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-bem-css</a>
           </div>
         </div>
       </div>
@@ -115,7 +113,7 @@ permalink: /learn/gutter/
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
-            <a href="http://codepen.io/dnomak/" class="dn-button dn-button--link">http://codepen.io/dnomak/</a>
+            <a href="https://github.com/flexiblegs/flexiblegs-scss-plus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-scss-plus</a>
           </div>
         </div>
       </div>

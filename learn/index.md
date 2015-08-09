@@ -59,7 +59,7 @@ permalink: /learn/
             <!-- <p><b>Dinamik</b></p> -->
             <div class="dn-space-16"></div>
             <ul>
-              <li><span>Scss Plus</span></li>
+              <li><a href="/learn/wrap/?framework=scss-plus">Scss Plus</a></li>
               <li><span>Sass Plus</span></li>
               <li><span>Less Plus</span></li>
               <li><span>Stylus Plus</span></li>
