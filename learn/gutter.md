@@ -1,6 +1,6 @@
 ---
 layout: default
-title: wrap(gutter(@gutter))
+title: wrap(gutter,@width)
 permalink: /learn/gutter/
 ---
 
@@ -8,7 +8,7 @@ permalink: /learn/gutter/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>gutter</span>(@gutter) (css)</div>
+      <div class="dn-style--title">wrap(<span>gutter</span>,@width) (css)</div>
       <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
     </div>
     <div class="dn-browser-body">
@@ -41,7 +41,7 @@ permalink: /learn/gutter/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>gutter</span>(@gutter) (bem-css)</div>
+      <div class="dn-style--title">wrap(<span>gutter</span>,@width) (bem-css)</div>
       <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
     </div>
     <div class="dn-browser-body">
@@ -72,7 +72,7 @@ permalink: /learn/gutter/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(<span>gutter</span>(@gutter) (scss-plus)</div>
+      <div class="dn-style--title">wrap(<span>gutter</span>,@width) (scss-plus)</div>
       <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
     </div>
     <div class="dn-browser-body">

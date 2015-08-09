@@ -1,14 +1,14 @@
 ---
 layout: default
-title: wrap(col(@width))
-permalink: /learn/wrap-col-width/
+title: wrap(@width)
+permalink: /learn/wrap-width/
 ---
 
 <div id="css">
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(col(<span>@width</span>) (css)</div>
+      <div class="dn-style--title">wrap(<span>@width</span>) (css)</div>
       <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
     </div>
     <div class="dn-browser-body">
@@ -21,9 +21,9 @@ permalink: /learn/wrap-col-width/
           -->&lt;/div&gt;<!--
           --><div class="comment">&lt;!-- 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 --&gt;</div><!--
         --></pre>
-        {% include wrap-col-width/is-compiled.html %}
+        {% include wrap-width/is-compiled.html %}
       </div>
-      {% include wrap-col-width/preview.html %}
+      {% include wrap-width/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -41,7 +41,7 @@ permalink: /learn/wrap-col-width/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(col(<span>@width</span>) (bem-css)</div>
+      <div class="dn-style--title">wrap(<span>@width</span>) (bem-css)</div>
       <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
     </div>
     <div class="dn-browser-body">
@@ -54,9 +54,9 @@ permalink: /learn/wrap-col-width/
           -->&lt;/div&gt;<!--
           --><div class="comment">&lt;!-- 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 --&gt;</div><!--
         --></pre>
-        {% include wrap-col-width/is-compiled.html %}
+        {% include wrap-width/is-compiled.html %}
       </div>
-      {% include wrap-col-width/preview.html %}
+      {% include wrap-width/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">
@@ -72,7 +72,7 @@ permalink: /learn/wrap-col-width/
   <div class="dn-browser">
     <div class="dn-browser-header">
       {% include browser-button.html %}
-      <div class="dn-style--title">wrap(col(<span>@width</span>) (scss-plus)</div>
+      <div class="dn-style--title">wrap(<span>@width</span>) (scss-plus)</div>
       <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
     </div>
     <div class="dn-browser-body">
@@ -99,11 +99,11 @@ permalink: /learn/wrap-col-width/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include wrap-col-width/is-compiled.html %}
+            {% include wrap-width/is-compiled.html %}
           </div>
         </div>
       </div>
-      {% include wrap-col-width/preview.html %}
+      {% include wrap-width/preview.html %}
       <div class="dn-browser-footer">
         <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
           <div class="col">

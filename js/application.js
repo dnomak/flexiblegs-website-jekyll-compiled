@@ -301,14 +301,14 @@ $(document).on("ready", function() {
               window.location = '/learn/gutter/?framework=' + framework;
             }
             else if(e.which == 39) { // right
-              window.location = '/learn/wrap-col-width/?framework=' + framework;
+              window.location = '/learn/wrap-width/?framework=' + framework;
             }
           });
 
       }
-      if (window.location.pathname == "/learn/wrap-col-width/") {
+      if (window.location.pathname == "/learn/wrap-width/") {
         $(".dn-menu--learn").addClass("is-active");
-        $(".dn-menu--learn-child__wrap-col-width").addClass("is-active");
+        $(".dn-menu--learn-child__wrap-width").addClass("is-active");
 
         // keydown
 
@@ -330,7 +330,7 @@ $(document).on("ready", function() {
 
           $("body").keydown(function(e) {
             if(e.which == 37) { // left
-              window.location = '/learn/wrap-col-width/?framework=' + framework;
+              window.location = '/learn/wrap-width/?framework=' + framework;
             }
             else if(e.which == 39) { // right
               window.location = '/learn/table/?framework=' + framework;
