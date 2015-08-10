@@ -1,21 +1,24 @@
 ---
 layout: default
-title: Motivation
+dynamic_title: motivation
 permalink: /motivation/
 ---
 
 <div class="dn-browser">
   <div class="dn-browser-header">
     {% include browser-button.html %}
-    <div class="dn-style--title">Motivation</div>
-    <!-- <div class="dn-style--title">Motivasyon</div> -->
-    <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+    <div class="dn-style--title">{{ site.t.[page.language].[page.dynamic_title].title }}</div>
+    {% include logo.html %}
   </div>
   <div class="dn-browser-body">
     <div class="dn-browser-body__item">
       <div class="dn-content">
-        <p>The links that makes us super happy and motivated :)</p>
-        <!-- <p>Projeye dört elle sarılmamızı sağlayan bazı linkler :)</p> -->
+        {% if page.language == 'en' %}
+          <p>The links that makes us super happy and motivated :)</p>
+        {% endif %}
+        {% if page.language == 'tr' %}
+          <p>Projeye dört elle sarılmamızı sağlayan bazı linkler :)</p>
+        {% endif %}
         <div class="dn-space-16"></div>
         <ul>
           <li><a href="https://github.com/showcases/design-essentials">github.com</a></li>

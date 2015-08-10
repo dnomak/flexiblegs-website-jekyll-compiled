@@ -8,15 +8,23 @@
         <div class="wrap xl-flexbox xl-between xl-auto lg-1 lg-center">
           <div class="col lg-hidden">
             <span class="dn-style--footer-link">
-              Keyboard Shortcuts: <i class="fa fa-long-arrow-left"></i> Previous <i class="fa fa-long-arrow-right"></i> Next
-              <!-- Klavye Kısayolları: <i class="fa fa-long-arrow-left"></i> Önceki <i class="fa fa-long-arrow-right"></i> Sonraki -->
+              {% if page.language == 'en' %}
+                Keyboard Shortcuts: <i class="fa fa-long-arrow-left"></i> Previous <i class="fa fa-long-arrow-right"></i> Next
+              {% endif %}
+              {% if page.language == 'tr' %}
+                Klavye Kısayolları: <i class="fa fa-long-arrow-left"></i> Önceki <i class="fa fa-long-arrow-right"></i> Sonraki
+              {% endif %}
             </span>
             <div class="dn-space-24"></div>
           </div>
           <div class="col">
             <a href="https://github.com/dnomak" class="dn-style--footer-link">
-              I <b>Love</b> Flexible Grid System :)
-              <!-- Flexible Grid System'i <b>Seviyorum</b> :) -->
+              {% if page.language == 'en' %}
+                I <b>Love</b> Flexible Grid System :)
+              {% endif %}
+              {% if page.language == 'tr' %}
+                Flexible Grid System'i <b>Seviyorum</b> :)
+              {% endif %}
             </a>
             <div class="dn-space-24 lg-hidden"></div>
           </div>

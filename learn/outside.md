@@ -9,11 +9,11 @@ permalink: /learn/outside/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>outside</span>,@width) (css)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap xl-gutter-24 <span>xl-outside-24</span>"&gt;<br/><!--
           -->  &lt;div class="col xl-3-12"&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="col xl-6-12"&gt;02&lt;/div&gt;<br/><!--
@@ -21,7 +21,7 @@ permalink: /learn/outside/
           -->&lt;/div&gt;<!--
           --><div class="comment">&lt;!-- 0, 8, 16, 24, 40 --&gt;</div><!--
         --></pre>
-        {% include outside/is-compiled.html %}
+        {% include outside/compiled.html %}
       </div>
       {% include outside/preview.html %}
       <div class="dn-browser-footer">
@@ -40,11 +40,11 @@ permalink: /learn/outside/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>outside</span>,@width) (bem-css)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap wrap--xl-gutter-24 <span>wrap--xl-outside-24</span>"&gt;<br/><!--
           -->  &lt;div class="wrap__col wrap__col--xl-3-12"&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="wrap__col wrap__col--xl-6-12"&gt;02&lt;/div&gt;<br/><!--
@@ -52,7 +52,7 @@ permalink: /learn/outside/
           -->&lt;/div&gt;<!--
           --><div class="comment">&lt;!-- 0, 8, 16, 24, 40 --&gt;</div><!--
         --></pre>
-        {% include outside/is-compiled.html %}
+        {% include outside/compiled.html %}
       </div>
       {% include outside/preview.html %}
       <div class="dn-browser-footer">
@@ -71,7 +71,7 @@ permalink: /learn/outside/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>outside</span>,@width) (scss-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -87,7 +87,7 @@ permalink: /learn/outside/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
               -->  @include wrap;<br/><!--
               -->  @include wrap(gutter,24px);<br/><!--
@@ -106,7 +106,7 @@ permalink: /learn/outside/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include outside/is-compiled.html %}
+            {% include outside/compiled.html %}
           </div>
         </div>
       </div>
@@ -127,7 +127,7 @@ permalink: /learn/outside/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>outside</span>,@width) (sass-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -143,7 +143,7 @@ permalink: /learn/outside/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
               -->  +wrap<br/><!--
               -->  +wrap(gutter,24px)<br/><!--
@@ -157,7 +157,7 @@ permalink: /learn/outside/
               -->    &.three<br/><!--
               -->      +col(3,12)<!--
             --></pre>
-            {% include outside/is-compiled.html %}
+            {% include outside/compiled.html %}
           </div>
         </div>
       </div>
@@ -178,7 +178,7 @@ permalink: /learn/outside/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>outside</span>,@width) (less-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -194,7 +194,7 @@ permalink: /learn/outside/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
               -->  .wrap;<br/><!--
               -->  .wrap(gutter,24px);<br/><!--
@@ -213,7 +213,7 @@ permalink: /learn/outside/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include outside/is-compiled.html %}
+            {% include outside/compiled.html %}
           </div>
         </div>
       </div>
@@ -234,7 +234,7 @@ permalink: /learn/outside/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>outside</span>,@width) (stylus-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -250,7 +250,7 @@ permalink: /learn/outside/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
               -->  wrap()<br/><!--
               -->  wrap(gutter,24px)<br/><!--
@@ -264,7 +264,7 @@ permalink: /learn/outside/
               -->    &.three<br/><!--
               -->      col(3,12)<!--
             --></pre>
-            {% include outside/is-compiled.html %}
+            {% include outside/compiled.html %}
           </div>
         </div>
       </div>

@@ -9,11 +9,11 @@ permalink: /learn/col-width/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">col(<span>@width</span>) (css)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap"&gt;<br/><!--
           -->  &lt;div class="col <span>xl-1-3</span>"&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="col <span>xl-1-3</span>"&gt;02&lt;/div&gt;<br/><!--
@@ -32,7 +32,7 @@ permalink: /learn/col-width/
           --><div class="comment">&lt;!-- 1-11, 2-11, 3-11, 4-11, 5-11, 6-11, 7-11, 8-11, 9-11, 10-11, --&gt;</div><!--
           --><div class="comment">&lt;!-- 1-12, 2-12, 3-12, 4-12, 5-12, 6-12, 7-12, 8-12, 9-12, 10-12, 11-12, --&gt;</div><!--
         --></pre>
-        {% include col-width/is-compiled.html %}
+        {% include col-width/compiled.html %}
       </div>
       {% include col-width/preview.html %}
       <div class="dn-browser-footer">
@@ -51,11 +51,11 @@ permalink: /learn/col-width/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">col(<span>@width</span>) (bem-css)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap"&gt;<br/><!--
           -->  &lt;div class="wrap__col <span>wrap__col--xl-1-3</span>"&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="wrap__col <span>wrap__col--xl-1-3</span>"&gt;02&lt;/div&gt;<br/><!--
@@ -74,7 +74,7 @@ permalink: /learn/col-width/
           --><div class="comment">&lt;!-- 1-11, 2-11, 3-11, 4-11, 5-11, 6-11, 7-11, 8-11, 9-11, 10-11, --&gt;</div><!--
           --><div class="comment">&lt;!-- 1-12, 2-12, 3-12, 4-12, 5-12, 6-12, 7-12, 8-12, 9-12, 10-12, 11-12, --&gt;</div><!--
         --></pre>
-        {% include col-width/is-compiled.html %}
+        {% include col-width/compiled.html %}
       </div>
       {% include col-width/preview.html %}
       <div class="dn-browser-footer">
@@ -93,7 +93,7 @@ permalink: /learn/col-width/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">col(<span>@width</span>) (scss-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -109,7 +109,7 @@ permalink: /learn/col-width/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
               -->  @include wrap;<br/><!--
               -->  &__item {<br/><!--
@@ -118,7 +118,7 @@ permalink: /learn/col-width/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include col-width/is-compiled.html %}
+            {% include col-width/compiled.html %}
           </div>
         </div>
       </div>
@@ -139,7 +139,7 @@ permalink: /learn/col-width/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">col(<span>@width</span>) (sass-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -155,14 +155,14 @@ permalink: /learn/col-width/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
               -->  +wrap<br/><!--
               -->  &__item<br/><!--
               -->    +col<br/><!--
               -->    +<span>col(1,3)</span><!--
             --></pre>
-            {% include col-width/is-compiled.html %}
+            {% include col-width/compiled.html %}
           </div>
         </div>
       </div>
@@ -183,7 +183,7 @@ permalink: /learn/col-width/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">col(<span>@width</span>) (less-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -199,7 +199,7 @@ permalink: /learn/col-width/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
               -->  .wrap;<br/><!--
               -->  &__item {<br/><!--
@@ -208,7 +208,7 @@ permalink: /learn/col-width/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include col-width/is-compiled.html %}
+            {% include col-width/compiled.html %}
           </div>
         </div>
       </div>
@@ -229,7 +229,7 @@ permalink: /learn/col-width/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">col(<span>@width</span>) (stylus-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -245,14 +245,14 @@ permalink: /learn/col-width/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
               -->  wrap()<br/><!--
               -->  &__item<br/><!--
               -->    col()<br/><!--
               -->    <span>col(1,3)</span><!--
             --></pre>
-            {% include col-width/is-compiled.html %}
+            {% include col-width/compiled.html %}
           </div>
         </div>
       </div>

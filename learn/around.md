@@ -9,11 +9,11 @@ permalink: /learn/around/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>around</span>) (css)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap xl-flexbox <span>xl-around</span> xl-5"&gt;<br/><!--
           -->  &lt;div class="col"&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="col"&gt;02&lt;/div&gt;<br/><!--
@@ -24,7 +24,7 @@ permalink: /learn/around/
           -->  &lt;div class="col"&gt;07&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
         --></pre>
-        {% include around/is-compiled.html %}
+        {% include around/compiled.html %}
       </div>
       {% include around/preview.html %}
       <div class="dn-browser-footer">
@@ -43,11 +43,11 @@ permalink: /learn/around/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>around</span>) (bem-css)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap wrap--xl-flexbox <span>wrap--xl-around</span> wrap--xl-5"&gt;<br/><!--
           -->  &lt;div class="wrap__col"&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="wrap__col"&gt;02&lt;/div&gt;<br/><!--
@@ -58,7 +58,7 @@ permalink: /learn/around/
           -->  &lt;div class="wrap__col"&gt;07&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
         --></pre>
-        {% include around/is-compiled.html %}
+        {% include around/compiled.html %}
       </div>
       {% include around/preview.html %}
       <div class="dn-browser-footer">
@@ -77,7 +77,7 @@ permalink: /learn/around/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>around</span>) (scss-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -97,7 +97,7 @@ permalink: /learn/around/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
               -->  @include wrap;<br/><!--
               -->  @include wrap(flexbox);<br/><!--
@@ -111,7 +111,7 @@ permalink: /learn/around/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include around/is-compiled.html %}
+            {% include around/compiled.html %}
           </div>
         </div>
       </div>
@@ -132,7 +132,7 @@ permalink: /learn/around/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>around</span>) (sass-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -152,7 +152,7 @@ permalink: /learn/around/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
               -->  +wrap<br/><!--
               -->  +wrap(flexbox)<br/><!--
@@ -163,7 +163,7 @@ permalink: /learn/around/
               -->    &.four<br/><!--
               -->      +col(1,1)<br/><!--
             --></pre>
-            {% include around/is-compiled.html %}
+            {% include around/compiled.html %}
           </div>
         </div>
       </div>
@@ -184,7 +184,7 @@ permalink: /learn/around/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>around</span>) (less-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -204,7 +204,7 @@ permalink: /learn/around/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
               -->  .wrap;<br/><!--
               -->  .wrap(flexbox);<br/><!--
@@ -218,7 +218,7 @@ permalink: /learn/around/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include around/is-compiled.html %}
+            {% include around/compiled.html %}
           </div>
         </div>
       </div>
@@ -239,7 +239,7 @@ permalink: /learn/around/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>around</span>) (stylus-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -259,7 +259,7 @@ permalink: /learn/around/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
               -->  wrap()<br/><!--
               -->  wrap(flexbox)<br/><!--
@@ -270,7 +270,7 @@ permalink: /learn/around/
               -->    &.four<br/><!--
               -->      col(1,1)<br/><!--
             --></pre>
-            {% include around/is-compiled.html %}
+            {% include around/compiled.html %}
           </div>
         </div>
       </div>

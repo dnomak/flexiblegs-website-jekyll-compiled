@@ -1,15 +1,14 @@
 ---
 layout: default
-title: Future
+dynamic_title: future
 permalink: /future/
 ---
 
 <div class="dn-browser">
   <div class="dn-browser-header">
     {% include browser-button.html %}
-    <div class="dn-style--title">Future</div>
-    <!-- <div class="dn-style--title">Gelecek</div> -->
-    <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+    <div class="dn-style--title">{{ site.t.[page.language].[page.dynamic_title].title }}</div>
+    {% include logo.html %}
   </div>
   <div class="dn-browser-body">
     <div class="dn-browser-body__item">
@@ -21,69 +20,77 @@ permalink: /future/
           <img alt="" border="0" src="https://www.paypalobjects.com/tr_TR/i/scr/pixel.gif" width="1" height="1" alt="PayPal">
         </form>
         <div class="dn-space-16"></div>
-        <p>To make our future plans a reality you can support us via PayPal :)</p>
-        <!-- <p>Gelecek planlarını daha hızlı uygulayabilmemiz için PayPal aracılığıyla bağış yapabilirsiniz :)</p> -->
+        {% if page.language == 'en' %}
+          <p>To make our future plans a reality you can support us via PayPal :)</p>
+        {% endif %}
+        {% if page.language == 'tr' %}
+          <p>Gelecek planlarını daha hızlı uygulayabilmemiz için PayPal aracılığıyla bağış yapabilirsiniz :)</p>
+        {% endif %}
         <div class="dn-space-16"></div>
-        <ul>
-          <li>Flexible Grid System
-            <ul>
-              <li>Sass, Scss, Less and Stylus</li>
-            </ul>
-          </li>
-          <li>Flexible Frontend Framework
-            <ul>
-              <li>Flexible Fonticons</li>
-              <li>Flexible Tabs</li>
-              <li>Flexible Slider and more :)</li>
-            </ul>
-          </li>
-          <li><a href="https://github.com/flexiblegs/grid-builder">Flexible Grid Builder</a></li>
-          <li>Flexible Frontend Editor</li>
-          <li>Flexible Shop
-            <ul>
-              <li>Mug</li>
-              <li>Shirt</li>
-              <li>Sticker and more :)</li>
-            </ul>
-          </li>
-          <li>Flexible Cloud</li>
-          <li>Flexible Workspace &amp; Cafe
-            <ul>
-              <li>Coffee (Flexible Blend)</li>
-              <li>Carrot Cake and more :)</li>
-            </ul>
-          </li>
-        </ul>
-        <!-- <ul>
-          <li>Flexible Grid System
-            <ul>
-              <li>Sass, Scss, Less and Stylus</li>
-            </ul>
-          </li>
-          <li>Flexible Frontend Framework
-            <ul>
-              <li>Flexible Fonticons</li>
-              <li>Flexible Tabs</li>
-              <li>Flexible Slider ve daha fazlası :)</li>
-            </ul>
-          </li>
-          <li><a href="https://github.com/flexiblegs/grid-builder">Flexible Grid Builder</a></li>
-          <li>Flexible Frontend Editor</li>
-          <li>Flexible Shop
-            <ul>
-              <li>Mug</li>
-              <li>Shirt</li>
-              <li>Sticker ve daha fazlası :)</li>
-            </ul>
-          </li>
-          <li>Flexible Cloud</li>
-          <li>Flexible Workspace &amp; Cafe
-            <ul>
-              <li>Coffee (Flexible Blend)</li>
-              <li>Carrot Cake ve daha fazlası :)</li>
-            </ul>
-          </li>
-        </ul> -->
+        {% if page.language == 'en' %}
+          <ul>
+            <li>Flexible Grid System
+              <ul>
+                <li>Sass, Scss, Less and Stylus</li>
+              </ul>
+            </li>
+            <li>Flexible Frontend Framework
+              <ul>
+                <li>Flexible Fonticons</li>
+                <li>Flexible Tabs</li>
+                <li>Flexible Slider and more :)</li>
+              </ul>
+            </li>
+            <li><a href="https://github.com/flexiblegs/grid-builder">Flexible Grid Builder</a></li>
+            <li>Flexible Frontend Editor</li>
+            <li>Flexible Shop
+              <ul>
+                <li>Mug</li>
+                <li>Shirt</li>
+                <li>Sticker and more :)</li>
+              </ul>
+            </li>
+            <li>Flexible Cloud</li>
+            <li>Flexible Workspace &amp; Cafe
+              <ul>
+                <li>Coffee (Flexible Blend)</li>
+                <li>Carrot Cake and more :)</li>
+              </ul>
+            </li>
+          </ul>
+        {% endif %}
+        {% if page.language == 'tr' %}
+          <ul>
+            <li>Flexible Grid System
+              <ul>
+                <li>Sass, Scss, Less and Stylus</li>
+              </ul>
+            </li>
+            <li>Flexible Frontend Framework
+              <ul>
+                <li>Flexible Fonticons</li>
+                <li>Flexible Tabs</li>
+                <li>Flexible Slider ve daha fazlası :)</li>
+              </ul>
+            </li>
+            <li><a href="https://github.com/flexiblegs/grid-builder">Flexible Grid Builder</a></li>
+            <li>Flexible Frontend Editor</li>
+            <li>Flexible Shop
+              <ul>
+                <li>Mug</li>
+                <li>Shirt</li>
+                <li>Sticker ve daha fazlası :)</li>
+              </ul>
+            </li>
+            <li>Flexible Cloud</li>
+            <li>Flexible Workspace &amp; Cafe
+              <ul>
+                <li>Coffee (Flexible Blend)</li>
+                <li>Carrot Cake ve daha fazlası :)</li>
+              </ul>
+            </li>
+          </ul>
+        {% endif %}
       </div>
     </div>
   </div>

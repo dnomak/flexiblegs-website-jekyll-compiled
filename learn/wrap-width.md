@@ -9,11 +9,11 @@ permalink: /learn/wrap-width/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>@width</span>) (css)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap xl-gutter-24 <span>xl-3</span>"&gt;<br/><!--
           -->  &lt;div class="col"&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="col"&gt;02&lt;/div&gt;<br/><!--
@@ -21,7 +21,7 @@ permalink: /learn/wrap-width/
           -->&lt;/div&gt;<!--
           --><div class="comment">&lt;!-- 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 --&gt;</div><!--
         --></pre>
-        {% include wrap-width/is-compiled.html %}
+        {% include wrap-width/compiled.html %}
       </div>
       {% include wrap-width/preview.html %}
       <div class="dn-browser-footer">
@@ -40,11 +40,11 @@ permalink: /learn/wrap-width/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>@width</span>) (bem-css)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap wrap--xl-gutter-24 <span>wrap--xl-3</span>"&gt;<br/><!--
           -->  &lt;div class="wrap__col"&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="wrap__col"&gt;02&lt;/div&gt;<br/><!--
@@ -52,7 +52,7 @@ permalink: /learn/wrap-width/
           -->&lt;/div&gt;<!--
           --><div class="comment">&lt;!-- 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 --&gt;</div><!--
         --></pre>
-        {% include wrap-width/is-compiled.html %}
+        {% include wrap-width/compiled.html %}
       </div>
       {% include wrap-width/preview.html %}
       <div class="dn-browser-footer">
@@ -71,7 +71,7 @@ permalink: /learn/wrap-width/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>@width</span>) (scss-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -87,7 +87,7 @@ permalink: /learn/wrap-width/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
               -->  @include wrap;<br/><!--
               -->  @include wrap(gutter,24px);<br/><!--
@@ -97,7 +97,7 @@ permalink: /learn/wrap-width/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include wrap-width/is-compiled.html %}
+            {% include wrap-width/compiled.html %}
           </div>
         </div>
       </div>
@@ -118,7 +118,7 @@ permalink: /learn/wrap-width/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>@width</span>) (sass-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -134,7 +134,7 @@ permalink: /learn/wrap-width/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
               -->  +wrap<br/><!--
               -->  +wrap(gutter,24px)<br/><!--
@@ -142,7 +142,7 @@ permalink: /learn/wrap-width/
               -->  &__item<br/><!--
               -->    +col<!--
             --></pre>
-            {% include wrap-width/is-compiled.html %}
+            {% include wrap-width/compiled.html %}
           </div>
         </div>
       </div>
@@ -163,7 +163,7 @@ permalink: /learn/wrap-width/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>@width</span>) (less-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -179,7 +179,7 @@ permalink: /learn/wrap-width/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
               -->  .wrap;<br/><!--
               -->  .wrap(gutter,24px);<br/><!--
@@ -189,7 +189,7 @@ permalink: /learn/wrap-width/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include wrap-width/is-compiled.html %}
+            {% include wrap-width/compiled.html %}
           </div>
         </div>
       </div>
@@ -210,7 +210,7 @@ permalink: /learn/wrap-width/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">wrap(<span>@width</span>) (stylus-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -226,7 +226,7 @@ permalink: /learn/wrap-width/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
               -->  wrap()<br/><!--
               -->  wrap(gutter,24px)<br/><!--
@@ -234,7 +234,7 @@ permalink: /learn/wrap-width/
               -->  &__item<br/><!--
               -->    col()<!--
             --></pre>
-            {% include wrap-width/is-compiled.html %}
+            {% include wrap-width/compiled.html %}
           </div>
         </div>
       </div>

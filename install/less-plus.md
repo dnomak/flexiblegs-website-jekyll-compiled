@@ -8,7 +8,7 @@ permalink: /install/less-plus/
   <div class="dn-browser-header">
     {% include browser-button.html %}
     <div class="dn-style--title"><span>less-plus</span></div>
-    <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+    {% include logo.html %}
   </div>
   <div class="dn-browser-body">
     <div class="dn-browser-body__pre">

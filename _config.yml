@@ -1,8 +1,44 @@
 # Site settings
-title: Flexible Grid System
-description: Flexible Grid System is a Responsive CSS Framework. This framework will let you create your web applications in a flexible way that you've never experienced before.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://flexible.gs" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+# Multiple languages
+gems: ['jekyll-multiple-languages']
+
+languages: ['en', 'tr']
+
+# If not config, the first of languages will be the default
+language_default: 'en'
+
+fill_default_content: true
+
+t:
+  en:
+    homepage:
+      title: "Homepage"
+    install:
+      title: "Install"
+    learn:
+      title: "Learn"
+    support:
+      title: "Support"
+    motivation:
+      title: "Motivation"
+    future:
+      title: "Future"
+  tr:
+    homepage:
+      title: "Anasayfa"
+    install:
+      title: "Kurulum"
+    learn:
+      title: "Öğrenme"
+    support:
+      title: "Destek"
+    motivation:
+      title: "Motivasyon"
+    future:
+      title: "Gelecek"

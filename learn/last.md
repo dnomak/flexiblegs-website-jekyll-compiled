@@ -9,18 +9,18 @@ permalink: /learn/last/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">col(<span>last</span>) (css)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap xl-flexbox xl-gutter-24 xl-3"&gt;<br/><!--
           -->  &lt;div class="col <span>xl-last</span>"&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="col"&gt;02&lt;/div&gt;<br/><!--
           -->  &lt;div class="col"&gt;03&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
         --></pre>
-        {% include last/is-compiled.html %}
+        {% include last/compiled.html %}
       </div>
       {% include last/preview.html %}
       <div class="dn-browser-footer">
@@ -39,18 +39,18 @@ permalink: /learn/last/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">col(<span>last</span>) (bem-css)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
-        <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
           -->&lt;div class="wrap wrap--xl-flexbox wrap--xl-gutter-24 xl-3"&gt;<br/><!--
           -->  &lt;div class="wrap__col <span>wrap__col--xl-last</span>"&gt;01&lt;/div&gt;<br/><!--
           -->  &lt;div class="wrap__col"&gt;02&lt;/div&gt;<br/><!--
           -->  &lt;div class="wrap__col"&gt;03&lt;/div&gt;<br/><!--
           -->&lt;/div&gt;<!--
         --></pre>
-        {% include last/is-compiled.html %}
+        {% include last/compiled.html %}
       </div>
       {% include last/preview.html %}
       <div class="dn-browser-footer">
@@ -69,7 +69,7 @@ permalink: /learn/last/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">col(<span>last</span>) (scss-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -85,7 +85,7 @@ permalink: /learn/last/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
               -->.example {<br/><!--
               -->  @include wrap;<br/><!--
               -->  @include wrap(flexbox);<br/><!--
@@ -99,7 +99,7 @@ permalink: /learn/last/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include last/is-compiled.html %}
+            {% include last/compiled.html %}
           </div>
         </div>
       </div>
@@ -120,7 +120,7 @@ permalink: /learn/last/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">col(<span>last</span>) (sass-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -136,8 +136,7 @@ permalink: /learn/last/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-          <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
               -->.example<br/><!--
               -->  +wrap<br/><!--
               -->  +wrap(flexbox)<br/><!--
@@ -148,9 +147,7 @@ permalink: /learn/last/
               -->    &.one<br/><!--
               -->      +<span>col(last)</span><!--
             --></pre>
-            {% include not-first/is-compiled.html %}
-          </div>
-            {% include last/is-compiled.html %}
+            {% include last/compiled.html %}
           </div>
         </div>
       </div>
@@ -171,7 +168,7 @@ permalink: /learn/last/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">col(<span>last</span>) (less-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -187,7 +184,7 @@ permalink: /learn/last/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
               -->.example {<br/><!--
               -->  .wrap;<br/><!--
               -->  .wrap(flexbox);<br/><!--
@@ -201,7 +198,7 @@ permalink: /learn/last/
               -->  }<br/><!--
               -->}<!--
             --></pre>
-            {% include last/is-compiled.html %}
+            {% include last/compiled.html %}
           </div>
         </div>
       </div>
@@ -222,7 +219,7 @@ permalink: /learn/last/
     <div class="dn-browser-header">
       {% include browser-button.html %}
       <div class="dn-style--title">col(<span>last</span>) (stylus-plus)</div>
-      <a href="/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt=""></a>
+      {% include logo.html %}
     </div>
     <div class="dn-browser-body">
       <div class="dn-browser-body__pre">
@@ -238,8 +235,7 @@ permalink: /learn/last/
             <br class="xl-hidden lg-not-hidden" />
           </div>
           <div class="col">
-          <div class="col">
-            <pre class="is-not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
               -->.example<br/><!--
               -->  wrap()<br/><!--
               -->  wrap(flexbox)<br/><!--
@@ -250,9 +246,7 @@ permalink: /learn/last/
               -->    &.one<br/><!--
               -->      <span>col(last)</span><!--
             --></pre>
-            {% include not-first/is-compiled.html %}
-          </div>
-            {% include last/is-compiled.html %}
+            {% include last/compiled.html %}
           </div>
         </div>
       </div>

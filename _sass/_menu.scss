@@ -9,14 +9,14 @@
     width: 100%;
     font-size: 14px;
     border-bottom: 1px solid #e8e8e8;
-    &.is-line-through {
+    &.line-through {
       text-decoration: line-through;
       cursor: not-allowed;
     }
-    &.is-end {
+    &.end {
       border-bottom: 0;
     }
-    &.is-active {
+    &.active {
       background: #E8E8E8;
     }
     &:hover {
@@ -26,7 +26,7 @@
       padding-left: 30px;
       border-left: 8px solid #e8e8e8;
       color: #a1a1a1;
-      &.is-active {
+      &.active {
         color: #fff;
         background: #2ECC71;
       }
@@ -34,7 +34,7 @@
   }
 }
 .dn-menu--install-child, .dn-menu--learn-child {
-  &.is-hidden {
+  &.hidden {
     display: none;
   }
 }
