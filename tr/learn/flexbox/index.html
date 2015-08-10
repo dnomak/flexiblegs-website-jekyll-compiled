@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--
+  
+    
+  
+  -->
+  <title>
+    
+      wrap(flexbox) - flexible.gs (tr)
+    
+  </title>
+  <meta name="description" content="">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/css/application.css">
+  <link rel="canonical" href="http://flexible.gs/tr/learn/flexbox/">
+  <link rel="alternate" type="application/rss+xml" title="" href="http://flexible.gs/feed.xml" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/application.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-25094721-4', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script type="text/javascript">
+      var disqus_shortname = 'flexiblegs';
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+</head>
+
+  <body>
+    <section class="wrap xl-gutter-24 xl-outside-24 xl-top lg-1">
+      <article class="col xl-9-12">
+        <div id="css">
+  <div class="dn-browser">
+    <div class="dn-browser-header">
+      <div class="dn-browser-button">
+  <div class="wrap xl-auto">
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+  </div>
+</div>
+
+      <div class="dn-style--title">wrap(<span>flexbox</span>) (css)</div>
+      
+
+  <a href="/tr/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt="" /></a>
+
+
+    </div>
+    <div class="dn-browser-body">
+      <div class="dn-browser-body__pre">
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+          -->&lt;div class="wrap <span>xl-flexbox</span> xl-gutter-24"&gt;<br /><!--
+          -->  &lt;div class="col xl-3-12"&gt;01&lt;/div&gt;<br /><!--
+          -->  &lt;div class="col xl-6-12"&gt;02&lt;/div&gt;<br /><!--
+          -->  &lt;div class="col xl-3-12"&gt;03&lt;/div&gt;<br /><!--
+          -->&lt;/div&gt;<!--
+        --></pre>
+        <pre class="compiled"><div class="dn-tag dn-tag--black dn-tag--top dn-tag--button"><i class="fa fa-times fa-lg"></i></div><!--
+  --><span>wrap(flexbox)</span><br /><!--
+  -->  display: flex;<br /><!--
+  -->  flex-direction: row;<br /><!--
+  -->  flex-wrap: wrap;<br /><!--
+  -->  justify-content: flex-start;<br /><!--
+  -->  align-content: center;<br /><!--
+  -->  align-items: center;<br /><!--
+--></pre>
+
+      </div>
+      <div class="dn-browser-body__item">
+  <div class="wrap xl-flexbox xl-gutter-24 dn-style--wrap">
+    <div class="col xl-3-12"><div class="dn-style--col">01</div></div>
+    <div class="col xl-6-12"><div class="dn-style--col">02</div></div>
+    <div class="col xl-3-12"><div class="dn-style--col">03</div></div>
+  </div>
+</div>
+
+      <div class="dn-browser-footer">
+        <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
+          <div class="col">
+            <a href="http://codepen.io/dnomak/pen/WvLeGQ?editors=110" class="dn-button dn-button--link">http://codepen.io/dnomak/pen/WvLeGQ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="bem-css">
+  <div class="dn-browser">
+    <div class="dn-browser-header">
+      <div class="dn-browser-button">
+  <div class="wrap xl-auto">
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+  </div>
+</div>
+
+      <div class="dn-style--title">wrap(<span>flexbox</span>) (bem-css)</div>
+      
+
+  <a href="/tr/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt="" /></a>
+
+
+    </div>
+    <div class="dn-browser-body">
+      <div class="dn-browser-body__pre">
+        <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+          -->&lt;div class="wrap <span>wrap--xl-flexbox</span> wrap--xl-gutter-24"&gt;<br /><!--
+          -->  &lt;div class="wrap__col wrap__col--xl-3-12"&gt;01&lt;/div&gt;<br /><!--
+          -->  &lt;div class="wrap__col wrap__col--xl-6-12"&gt;02&lt;/div&gt;<br /><!--
+          -->  &lt;div class="wrap__col wrap__col--xl-3-12"&gt;03&lt;/div&gt;<br /><!--
+          -->&lt;/div&gt;<!--
+        --></pre>
+        <pre class="compiled"><div class="dn-tag dn-tag--black dn-tag--top dn-tag--button"><i class="fa fa-times fa-lg"></i></div><!--
+  --><span>wrap(flexbox)</span><br /><!--
+  -->  display: flex;<br /><!--
+  -->  flex-direction: row;<br /><!--
+  -->  flex-wrap: wrap;<br /><!--
+  -->  justify-content: flex-start;<br /><!--
+  -->  align-content: center;<br /><!--
+  -->  align-items: center;<br /><!--
+--></pre>
+
+      </div>
+      <div class="dn-browser-body__item">
+  <div class="wrap xl-flexbox xl-gutter-24 dn-style--wrap">
+    <div class="col xl-3-12"><div class="dn-style--col">01</div></div>
+    <div class="col xl-6-12"><div class="dn-style--col">02</div></div>
+    <div class="col xl-3-12"><div class="dn-style--col">03</div></div>
+  </div>
+</div>
+
+      <div class="dn-browser-footer">
+        <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
+          <div class="col">
+            <a href="https://github.com/flexiblegs/flexiblegs-bem-css" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-bem-css</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="scss-plus">
+  <div class="dn-browser">
+    <div class="dn-browser-header">
+      <div class="dn-browser-button">
+  <div class="wrap xl-auto">
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+  </div>
+</div>
+
+      <div class="dn-style--title">wrap(<span>flexbox</span>) (scss-plus)</div>
+      
+
+  <a href="/tr/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt="" /></a>
+
+
+    </div>
+    <div class="dn-browser-body">
+      <div class="dn-browser-body__pre">
+        <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
+          <div class="col">
+            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+              -->&lt;div class="example"&gt;<br /><!--
+              -->  &lt;div class="example__item one"&gt;01&lt;/div&gt;<br /><!--
+              -->  &lt;div class="example__item two"&gt;02&lt;/div&gt;<br /><!--
+              -->  &lt;div class="example__item three"&gt;03&lt;/div&gt;<br /><!--
+              -->&lt;/div&gt;<!--
+            --></pre>
+            <br class="xl-hidden lg-not-hidden" />
+          </div>
+          <div class="col">
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.scss</div><!--
+              -->.example {<br /><!--
+              -->  @include wrap;<br /><!--
+              -->  @include <span>wrap(flexbox)</span>;<br /><!--
+              -->  @include wrap(gutter,24px);<br /><!--
+              -->  &amp;__item {<br /><!--
+              -->    @include col;<br /><!--
+              -->    &amp;.one {<br /><!--
+              -->      @include col(3,12);<br /><!--
+              -->    }<br /><!--
+              -->    &amp;.two {<br /><!--
+              -->      @include col(6,12);<br /><!--
+              -->    }<br /><!--
+              -->    &amp;.three {<br /><!--
+              -->      @include col(3,12);<br /><!--
+              -->    }<br /><!--
+              -->  }<br /><!--
+              -->}<!--
+            --></pre>
+            <pre class="compiled"><div class="dn-tag dn-tag--black dn-tag--top dn-tag--button"><i class="fa fa-times fa-lg"></i></div><!--
+  --><span>wrap(flexbox)</span><br /><!--
+  -->  display: flex;<br /><!--
+  -->  flex-direction: row;<br /><!--
+  -->  flex-wrap: wrap;<br /><!--
+  -->  justify-content: flex-start;<br /><!--
+  -->  align-content: center;<br /><!--
+  -->  align-items: center;<br /><!--
+--></pre>
+
+          </div>
+        </div>
+      </div>
+      <div class="dn-browser-body__item">
+  <div class="wrap xl-flexbox xl-gutter-24 dn-style--wrap">
+    <div class="col xl-3-12"><div class="dn-style--col">01</div></div>
+    <div class="col xl-6-12"><div class="dn-style--col">02</div></div>
+    <div class="col xl-3-12"><div class="dn-style--col">03</div></div>
+  </div>
+</div>
+
+      <div class="dn-browser-footer">
+        <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
+          <div class="col">
+            <a href="https://github.com/flexiblegs/flexiblegs-scss-plus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-scss-plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="sass-plus">
+  <div class="dn-browser">
+    <div class="dn-browser-header">
+      <div class="dn-browser-button">
+  <div class="wrap xl-auto">
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+  </div>
+</div>
+
+      <div class="dn-style--title">wrap(<span>flexbox</span>) (sass-plus)</div>
+      
+
+  <a href="/tr/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt="" /></a>
+
+
+    </div>
+    <div class="dn-browser-body">
+      <div class="dn-browser-body__pre">
+        <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
+          <div class="col">
+            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+              -->&lt;div class="example"&gt;<br /><!--
+              -->  &lt;div class="example__item one"&gt;01&lt;/div&gt;<br /><!--
+              -->  &lt;div class="example__item two"&gt;02&lt;/div&gt;<br /><!--
+              -->  &lt;div class="example__item three"&gt;03&lt;/div&gt;<br /><!--
+              -->&lt;/div&gt;<!--
+            --></pre>
+            <br class="xl-hidden lg-not-hidden" />
+          </div>
+          <div class="col">
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.sass</div><!--
+              -->.example {<br /><!--
+              -->  +wrap<br /><!--
+              -->  +<span>wrap(flexbox)</span><br /><!--
+              -->  +wrap(gutter,24px)<br /><!--
+              -->  &amp;__item<br /><!--
+              -->    +col<br /><!--
+              -->    &amp;.one<br /><!--
+              -->      +col(3,12)<br /><!--
+              -->    &amp;.two<br /><!--
+              -->      +col(6,12)<br /><!--
+              -->    &amp;.three<br /><!--
+              -->      +col(3,12)<!--
+            --></pre>
+            <pre class="compiled"><div class="dn-tag dn-tag--black dn-tag--top dn-tag--button"><i class="fa fa-times fa-lg"></i></div><!--
+  --><span>wrap(flexbox)</span><br /><!--
+  -->  display: flex;<br /><!--
+  -->  flex-direction: row;<br /><!--
+  -->  flex-wrap: wrap;<br /><!--
+  -->  justify-content: flex-start;<br /><!--
+  -->  align-content: center;<br /><!--
+  -->  align-items: center;<br /><!--
+--></pre>
+
+          </div>
+        </div>
+      </div>
+      <div class="dn-browser-body__item">
+  <div class="wrap xl-flexbox xl-gutter-24 dn-style--wrap">
+    <div class="col xl-3-12"><div class="dn-style--col">01</div></div>
+    <div class="col xl-6-12"><div class="dn-style--col">02</div></div>
+    <div class="col xl-3-12"><div class="dn-style--col">03</div></div>
+  </div>
+</div>
+
+      <div class="dn-browser-footer">
+        <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
+          <div class="col">
+            <a href="https://github.com/flexiblegs/flexiblegs-sass-plus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-sass-plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="less-plus">
+  <div class="dn-browser">
+    <div class="dn-browser-header">
+      <div class="dn-browser-button">
+  <div class="wrap xl-auto">
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+  </div>
+</div>
+
+      <div class="dn-style--title">wrap(<span>flexbox</span>) (less-plus)</div>
+      
+
+  <a href="/tr/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt="" /></a>
+
+
+    </div>
+    <div class="dn-browser-body">
+      <div class="dn-browser-body__pre">
+        <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
+          <div class="col">
+            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+              -->&lt;div class="example"&gt;<br /><!--
+              -->  &lt;div class="example__item one"&gt;01&lt;/div&gt;<br /><!--
+              -->  &lt;div class="example__item two"&gt;02&lt;/div&gt;<br /><!--
+              -->  &lt;div class="example__item three"&gt;03&lt;/div&gt;<br /><!--
+              -->&lt;/div&gt;<!--
+            --></pre>
+            <br class="xl-hidden lg-not-hidden" />
+          </div>
+          <div class="col">
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.less</div><!--
+              -->.example {<br /><!--
+              -->  .wrap;<br /><!--
+              -->  .<span>wrap(flexbox)</span>;<br /><!--
+              -->  .wrap(gutter,24px);<br /><!--
+              -->  &amp;__item {<br /><!--
+              -->    .col;<br /><!--
+              -->    &amp;.one {<br /><!--
+              -->      .col(3,12);<br /><!--
+              -->    }<br /><!--
+              -->    &amp;.two {<br /><!--
+              -->      .col(6,12);<br /><!--
+              -->    }<br /><!--
+              -->    &amp;.three {<br /><!--
+              -->      .col(3,12);<br /><!--
+              -->    }<br /><!--
+              -->  }<br /><!--
+              -->}<!--
+            --></pre>
+            <pre class="compiled"><div class="dn-tag dn-tag--black dn-tag--top dn-tag--button"><i class="fa fa-times fa-lg"></i></div><!--
+  --><span>wrap(flexbox)</span><br /><!--
+  -->  display: flex;<br /><!--
+  -->  flex-direction: row;<br /><!--
+  -->  flex-wrap: wrap;<br /><!--
+  -->  justify-content: flex-start;<br /><!--
+  -->  align-content: center;<br /><!--
+  -->  align-items: center;<br /><!--
+--></pre>
+
+          </div>
+        </div>
+      </div>
+      <div class="dn-browser-body__item">
+  <div class="wrap xl-flexbox xl-gutter-24 dn-style--wrap">
+    <div class="col xl-3-12"><div class="dn-style--col">01</div></div>
+    <div class="col xl-6-12"><div class="dn-style--col">02</div></div>
+    <div class="col xl-3-12"><div class="dn-style--col">03</div></div>
+  </div>
+</div>
+
+      <div class="dn-browser-footer">
+        <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
+          <div class="col">
+            <a href="https://github.com/flexiblegs/flexiblegs-less-plus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-less-plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="stylus-plus">
+  <div class="dn-browser">
+    <div class="dn-browser-header">
+      <div class="dn-browser-button">
+  <div class="wrap xl-auto">
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+  </div>
+</div>
+
+      <div class="dn-style--title">wrap(<span>flexbox</span>) (stylus-plus)</div>
+      
+
+  <a href="/tr/" class="dn-logo"><img src="/img/flexiblegs-logo-white.png" alt="" /></a>
+
+
+    </div>
+    <div class="dn-browser-body">
+      <div class="dn-browser-body__pre">
+        <div class="wrap xl-top xl-gutter-24 xl-2 lg-1">
+          <div class="col">
+            <pre><div class="dn-tag dn-tag--gray dn-tag--bottom">.html</div><!--
+              -->&lt;div class="example"&gt;<br /><!--
+              -->  &lt;div class="example__item one"&gt;01&lt;/div&gt;<br /><!--
+              -->  &lt;div class="example__item two"&gt;02&lt;/div&gt;<br /><!--
+              -->  &lt;div class="example__item three"&gt;03&lt;/div&gt;<br /><!--
+              -->&lt;/div&gt;<!--
+            --></pre>
+            <br class="xl-hidden lg-not-hidden" />
+          </div>
+          <div class="col">
+            <pre class="not-compiled"><div class="dn-tag dn-tag--gray dn-tag--top dn-tag--button"><i class="fa fa-magic fa-lg"></i></div><div class="dn-tag dn-tag--gray dn-tag--bottom">.styl</div><!--
+              -->.example {<br /><!--
+              -->  wrap()<br /><!--
+              -->  <span>wrap(flexbox)</span><br /><!--
+              -->  wrap(gutter,24px)<br /><!--
+              -->  &amp;__item<br /><!--
+              -->    col()<br /><!--
+              -->    &amp;.one<br /><!--
+              -->      col(3,12)<br /><!--
+              -->    &amp;.two<br /><!--
+              -->      col(6,12)<br /><!--
+              -->    &amp;.three<br /><!--
+              -->      col(3,12)<!--
+            --></pre>
+            <pre class="compiled"><div class="dn-tag dn-tag--black dn-tag--top dn-tag--button"><i class="fa fa-times fa-lg"></i></div><!--
+  --><span>wrap(flexbox)</span><br /><!--
+  -->  display: flex;<br /><!--
+  -->  flex-direction: row;<br /><!--
+  -->  flex-wrap: wrap;<br /><!--
+  -->  justify-content: flex-start;<br /><!--
+  -->  align-content: center;<br /><!--
+  -->  align-items: center;<br /><!--
+--></pre>
+
+          </div>
+        </div>
+      </div>
+      <div class="dn-browser-body__item">
+  <div class="wrap xl-flexbox xl-gutter-24 dn-style--wrap">
+    <div class="col xl-3-12"><div class="dn-style--col">01</div></div>
+    <div class="col xl-6-12"><div class="dn-style--col">02</div></div>
+    <div class="col xl-3-12"><div class="dn-style--col">03</div></div>
+  </div>
+</div>
+
+      <div class="dn-browser-footer">
+        <div class="wrap xl-gutter-24 xl-outside-24 xl-center xl-auto">
+          <div class="col">
+            <a href="https://github.com/flexiblegs/flexiblegs-stylus-plus" class="dn-button dn-button--link">https://github.com/flexiblegs/flexiblegs-stylus-plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="wrap xl-flexbox xl-between xl-auto lg-1 lg-center">
+          <div class="col lg-hidden">
+            <span class="dn-style--footer-link">
+              
+              
+                Klavye Kısayolları: <i class="fa fa-long-arrow-left"></i> Önceki <i class="fa fa-long-arrow-right"></i> Sonraki
+              
+            </span>
+            <div class="dn-space-24"></div>
+          </div>
+          <div class="col">
+            <a href="https://github.com/dnomak" class="dn-style--footer-link">
+              
+              
+                Flexible Grid System'i <b>Seviyorum</b> :)
+              
+            </a>
+            <div class="dn-space-24 lg-hidden"></div>
+          </div>
+        </div>
+      </article>
+      <aside class="col xl-3-12 dn-style--aside">
+        <div class="dn-browser">
+  <!-- header -->
+    <div class="dn-browser-header">
+      <div class="dn-browser-button">
+  <div class="wrap xl-auto">
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+    <div class="col"><div class="dn-browser-button__circle"></div></div>
+  </div>
+</div>
+
+      
+      
+        <a href="/" class="dn-tag dn-tag--blue dn-tag--center">English</a>
+      
+      <div class="dn-style--title">
+        Menu
+      </div>
+    </div>
+  <!-- body -->
+    <div class="dn-browser-body dn-browser-body--menu">
+      <!-- social-media -->
+        <div class="wrap xl-4 xl-right">
+          <div class="col">
+            <a href="https://github.com/flexiblegs" class="dn-button dn-button--icon" style="border-bottom: 1px solid #E8E8E8;">
+              <i class="fa fa-github-alt fa-2x"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://twitter.com/flexiblegs" class="dn-button dn-button--icon" style="border-left: 1px solid #E8E8E8; border-bottom: 1px solid #E8E8E8;">
+              <i class="fa fa-twitter fa-2x"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://github.com/flexiblegs/flexiblegs-css/stargazers" class="dn-button dn-button--icon" style="border-left: 1px solid #E8E8E8; border-right: 1px solid #E8E8E8; border-bottom: 1px solid #E8E8E8;">
+              <i class="fa fa-star fa-2x"></i>
+            </a>
+          </div>
+          <div class="col">
+            
+            
+              <a href="https://twitter.com/share?text=Flexible%20Grid%20System%27i%20Seviyorum%20%3A%29&via=flexiblegs" class="dn-button dn-button--icon" style="border-bottom: 1px solid #E8E8E8;">
+                <i class="fa fa-heart fa-2x"></i>
+              </a>
+            
+          </div>
+        </div>
+      <!-- nav -->
+        
+        
+          <nav>
+            <ul>
+              <li>
+                <a id="menu--homepage" class="dn-menu__item dn-menu__item--parent" href="/tr/">Anasayfa</a>
+              </li>
+              <li>
+                <a class="dn-menu__item dn-menu--install dn-menu__item--parent" href="/tr/install/">Kurulum</a>
+                <ul class="dn-menu--install-child hidden">
+                  <li><a class="dn-menu__item dn-menu__item--child dn-menu--install-child__css" href="/tr/install/css/">css</a></li>
+                  <li><a class="dn-menu__item dn-menu__item--child dn-menu--install-child__bem-css" href="/tr/install/bem-css/">bem-css</a></li>
+                  <li><a class="dn-menu__item dn-menu__item--child dn-menu--install-child__scss-plus" href="/tr/install/scss-plus/">scss-plus</a></li>
+                  <li><a class="dn-menu__item dn-menu__item--child dn-menu--install-child__sass-plus" href="/tr/install/sass-plus/">sass-plus</a></li>
+                  <li><a class="dn-menu__item dn-menu__item--child dn-menu--install-child__less-plus" href="/tr/install/less-plus/">less-plus</a></li>
+                  <li><a class="dn-menu__item dn-menu__item--child dn-menu--install-child__stylus-plus" href="/tr/install/stylus-plus/">stylus-plus</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="dn-menu__item dn-menu--learn dn-menu__item--parent" href="/tr/learn/">Öğrenme</a>
+                <!-- css -->
+                  <ul id="css--menu">
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__wrap" href="/tr/learn/wrap/?framework=css">wrap (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__col" href="/tr/learn/col/?framework=css">col (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__col-width" href="/tr/learn/col-width/?framework=css">col(@width) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__hidden" href="/tr/learn/hidden/?framework=css">col(hidden) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-hidden" href="/tr/learn/not-hidden/?framework=css">col(not-hidden) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__gutter" href="/tr/learn/gutter/?framework=css">wrap(gutter,@width) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__outside" href="/tr/learn/outside/?framework=css">wrap(outside,@width) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__wrap-width" href="/tr/learn/wrap-width/?framework=css">wrap(@width) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__auto" href="/tr/learn/auto/?framework=css">wrap(auto) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__table" href="/tr/learn/table/?framework=css">wrap(table) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__flexbox" href="/tr/learn/flexbox/?framework=css">wrap(flexbox) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__normal" href="/tr/learn/normal/?framework=css">wrap(normal) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__left" href="/tr/learn/left/?framework=css">wrap(left) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__center" href="/tr/learn/center/?framework=css">wrap(center) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__right" href="/tr/learn/right/?framework=css">wrap(right) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__top" href="/tr/learn/top/?framework=css">wrap(top) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__middle" href="/tr/learn/middle/?framework=css">wrap(middle) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__bottom" href="/tr/learn/bottom/?framework=css">wrap(bottom) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__between" href="/tr/learn/between/?framework=css">wrap(between) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__around" href="/tr/learn/around/?framework=css">wrap(around) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__baseline" href="/tr/learn/baseline/?framework=css">wrap(baseline) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__first" href="/tr/learn/first/?framework=css">col(first) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-first" href="/tr/learn/not-first/?framework=css">col(not-first) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__last" href="/tr/learn/last/?framework=css">col(last) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-last" href="/tr/learn/not-last/?framework=css">col(not-last) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__reverse" href="/tr/learn/reverse/?framework=css">wrap(reverse) (css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-reverse" href="/tr/learn/not-reverse/?framework=css">wrap(not-reverse) (css)</a></li>
+                  </ul>
+                <!-- bem-css -->
+                  <ul id="bem-css--menu">
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__wrap" href="/tr/learn/wrap/?framework=bem-css">wrap (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__col" href="/tr/learn/col/?framework=bem-css">col (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__col-width" href="/tr/learn/col-width/?framework=bem-css">col(@width) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__hidden" href="/tr/learn/hidden/?framework=bem-css">col(hidden) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-hidden" href="/tr/learn/not-hidden/?framework=bem-css">col(not-hidden) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__gutter" href="/tr/learn/gutter/?framework=bem-css">wrap(gutter,@width) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__outside" href="/tr/learn/outside/?framework=bem-css">wrap(outside,@width) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__wrap-width" href="/tr/learn/wrap-width/?framework=bem-css">wrap(@width) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__auto" href="/tr/learn/auto/?framework=bem-css">wrap(auto) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__table" href="/tr/learn/table/?framework=bem-css">wrap(table) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__flexbox" href="/tr/learn/flexbox/?framework=bem-css">wrap(flexbox) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__normal" href="/tr/learn/normal/?framework=bem-css">wrap(normal) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__left" href="/tr/learn/left/?framework=bem-css">wrap(left) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__center" href="/tr/learn/center/?framework=bem-css">wrap(center) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__right" href="/tr/learn/right/?framework=bem-css">wrap(right) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__top" href="/tr/learn/top/?framework=bem-css">wrap(top) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__middle" href="/tr/learn/middle/?framework=bem-css">wrap(middle) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__bottom" href="/tr/learn/bottom/?framework=bem-css">wrap(bottom) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__between" href="/tr/learn/between/?framework=bem-css">wrap(between) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__around" href="/tr/learn/around/?framework=bem-css">wrap(around) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__baseline" href="/tr/learn/baseline/?framework=bem-css">wrap(baseline) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__first" href="/tr/learn/first/?framework=bem-css">col(first) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-first" href="/tr/learn/not-first/?framework=bem-css">col(not-first) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__last" href="/tr/learn/last/?framework=bem-css">col(last) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-last" href="/tr/learn/not-last/?framework=bem-css">col(not-last) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__reverse" href="/tr/learn/reverse/?framework=bem-css">wrap(reverse) (bem-css)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-reverse" href="/tr/learn/not-reverse/?framework=bem-css">wrap(not-reverse) (bem-css)</a></li>
+                  </ul>
+                <!-- scss-plus -->
+                  <ul id="scss-plus--menu">
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__wrap" href="/tr/learn/wrap/?framework=scss-plus">wrap (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__col" href="/tr/learn/col/?framework=scss-plus">col (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__col-width" href="/tr/learn/col-width/?framework=scss-plus">col(@width) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__hidden" href="/tr/learn/hidden/?framework=scss-plus">col(hidden) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-hidden" href="/tr/learn/not-hidden/?framework=scss-plus">col(not-hidden) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__gutter" href="/tr/learn/gutter/?framework=scss-plus">wrap(gutter,@width) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__outside" href="/tr/learn/outside/?framework=scss-plus">wrap(outside,@width) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__wrap-width" href="/tr/learn/wrap-width/?framework=scss-plus">wrap(@width) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__auto" href="/tr/learn/auto/?framework=scss-plus">wrap(auto) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__table" href="/tr/learn/table/?framework=scss-plus">wrap(table) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__flexbox" href="/tr/learn/flexbox/?framework=scss-plus">wrap(flexbox) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__normal" href="/tr/learn/normal/?framework=scss-plus">wrap(normal) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__left" href="/tr/learn/left/?framework=scss-plus">wrap(left) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__center" href="/tr/learn/center/?framework=scss-plus">wrap(center) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__right" href="/tr/learn/right/?framework=scss-plus">wrap(right) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__top" href="/tr/learn/top/?framework=scss-plus">wrap(top) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__middle" href="/tr/learn/middle/?framework=scss-plus">wrap(middle) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__bottom" href="/tr/learn/bottom/?framework=scss-plus">wrap(bottom) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__between" href="/tr/learn/between/?framework=scss-plus">wrap(between) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__around" href="/tr/learn/around/?framework=scss-plus">wrap(around) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__baseline" href="/tr/learn/baseline/?framework=scss-plus">wrap(baseline) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__first" href="/tr/learn/first/?framework=scss-plus">col(first) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-first" href="/tr/learn/not-first/?framework=scss-plus">col(not-first) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__last" href="/tr/learn/last/?framework=scss-plus">col(last) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-last" href="/tr/learn/not-last/?framework=scss-plus">col(not-last) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__reverse" href="/tr/learn/reverse/?framework=scss-plus">wrap(reverse) (scss-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-reverse" href="/tr/learn/not-reverse/?framework=scss-plus">wrap(not-reverse) (scss-plus)</a></li>
+                  </ul>
+                <!-- sass-plus -->
+                  <ul id="sass-plus--menu">
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__wrap" href="/tr/learn/wrap/?framework=sass-plus">wrap (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__col" href="/tr/learn/col/?framework=sass-plus">col (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__col-width" href="/tr/learn/col-width/?framework=sass-plus">col(@width) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__hidden" href="/tr/learn/hidden/?framework=sass-plus">col(hidden) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-hidden" href="/tr/learn/not-hidden/?framework=sass-plus">col(not-hidden) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__gutter" href="/tr/learn/gutter/?framework=sass-plus">wrap(gutter,@width) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__outside" href="/tr/learn/outside/?framework=sass-plus">wrap(outside,@width) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__wrap-width" href="/tr/learn/wrap-width/?framework=sass-plus">wrap(@width) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__auto" href="/tr/learn/auto/?framework=sass-plus">wrap(auto) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__table" href="/tr/learn/table/?framework=sass-plus">wrap(table) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__flexbox" href="/tr/learn/flexbox/?framework=sass-plus">wrap(flexbox) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__normal" href="/tr/learn/normal/?framework=sass-plus">wrap(normal) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__left" href="/tr/learn/left/?framework=sass-plus">wrap(left) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__center" href="/tr/learn/center/?framework=sass-plus">wrap(center) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__right" href="/tr/learn/right/?framework=sass-plus">wrap(right) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__top" href="/tr/learn/top/?framework=sass-plus">wrap(top) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__middle" href="/tr/learn/middle/?framework=sass-plus">wrap(middle) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__bottom" href="/tr/learn/bottom/?framework=sass-plus">wrap(bottom) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__between" href="/tr/learn/between/?framework=sass-plus">wrap(between) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__around" href="/tr/learn/around/?framework=sass-plus">wrap(around) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__baseline" href="/tr/learn/baseline/?framework=sass-plus">wrap(baseline) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__first" href="/tr/learn/first/?framework=sass-plus">col(first) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-first" href="/tr/learn/not-first/?framework=sass-plus">col(not-first) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__last" href="/tr/learn/last/?framework=sass-plus">col(last) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-last" href="/tr/learn/not-last/?framework=sass-plus">col(not-last) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__reverse" href="/tr/learn/reverse/?framework=sass-plus">wrap(reverse) (sass-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-reverse" href="/tr/learn/not-reverse/?framework=sass-plus">wrap(not-reverse) (sass-plus)</a></li>
+                  </ul>
+                <!-- less-plus -->
+                  <ul id="less-plus--menu">
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__wrap" href="/tr/learn/wrap/?framework=less-plus">wrap (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__col" href="/tr/learn/col/?framework=less-plus">col (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__col-width" href="/tr/learn/col-width/?framework=less-plus">col(@width) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__hidden" href="/tr/learn/hidden/?framework=less-plus">col(hidden) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-hidden" href="/tr/learn/not-hidden/?framework=less-plus">col(not-hidden) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__gutter" href="/tr/learn/gutter/?framework=less-plus">wrap(gutter,@width) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__outside" href="/tr/learn/outside/?framework=less-plus">wrap(outside,@width) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__wrap-width" href="/tr/learn/wrap-width/?framework=less-plus">wrap(@width) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__auto" href="/tr/learn/auto/?framework=less-plus">wrap(auto) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__table" href="/tr/learn/table/?framework=less-plus">wrap(table) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__flexbox" href="/tr/learn/flexbox/?framework=less-plus">wrap(flexbox) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__normal" href="/tr/learn/normal/?framework=less-plus">wrap(normal) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__left" href="/tr/learn/left/?framework=less-plus">wrap(left) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__center" href="/tr/learn/center/?framework=less-plus">wrap(center) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__right" href="/tr/learn/right/?framework=less-plus">wrap(right) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__top" href="/tr/learn/top/?framework=less-plus">wrap(top) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__middle" href="/tr/learn/middle/?framework=less-plus">wrap(middle) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__bottom" href="/tr/learn/bottom/?framework=less-plus">wrap(bottom) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__between" href="/tr/learn/between/?framework=less-plus">wrap(between) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__around" href="/tr/learn/around/?framework=less-plus">wrap(around) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__baseline" href="/tr/learn/baseline/?framework=less-plus">wrap(baseline) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__first" href="/tr/learn/first/?framework=less-plus">col(first) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-first" href="/tr/learn/not-first/?framework=less-plus">col(not-first) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__last" href="/tr/learn/last/?framework=less-plus">col(last) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-last" href="/tr/learn/not-last/?framework=less-plus">col(not-last) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__reverse" href="/tr/learn/reverse/?framework=less-plus">wrap(reverse) (less-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-reverse" href="/tr/learn/not-reverse/?framework=less-plus">wrap(not-reverse) (less-plus)</a></li>
+                  </ul>
+                <!-- stylus-plus -->
+                  <ul id="stylus-plus--menu">
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__wrap" href="/tr/learn/wrap/?framework=stylus-plus">wrap (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__col" href="/tr/learn/col/?framework=stylus-plus">col (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__col-width" href="/tr/learn/col-width/?framework=stylus-plus">col(@width) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__hidden" href="/tr/learn/hidden/?framework=stylus-plus">col(hidden) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-hidden" href="/tr/learn/not-hidden/?framework=stylus-plus">col(not-hidden) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__gutter" href="/tr/learn/gutter/?framework=stylus-plus">wrap(gutter,@width) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__outside" href="/tr/learn/outside/?framework=stylus-plus">wrap(outside,@width) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__wrap-width" href="/tr/learn/wrap-width/?framework=stylus-plus">wrap(@width) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__auto" href="/tr/learn/auto/?framework=stylus-plus">wrap(auto) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__table" href="/tr/learn/table/?framework=stylus-plus">wrap(table) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__flexbox" href="/tr/learn/flexbox/?framework=stylus-plus">wrap(flexbox) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__normal" href="/tr/learn/normal/?framework=stylus-plus">wrap(normal) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__left" href="/tr/learn/left/?framework=stylus-plus">wrap(left) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__center" href="/tr/learn/center/?framework=stylus-plus">wrap(center) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__right" href="/tr/learn/right/?framework=stylus-plus">wrap(right) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__top" href="/tr/learn/top/?framework=stylus-plus">wrap(top) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__middle" href="/tr/learn/middle/?framework=stylus-plus">wrap(middle) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__bottom" href="/tr/learn/bottom/?framework=stylus-plus">wrap(bottom) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__between" href="/tr/learn/between/?framework=stylus-plus">wrap(between) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__around" href="/tr/learn/around/?framework=stylus-plus">wrap(around) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__baseline" href="/tr/learn/baseline/?framework=stylus-plus">wrap(baseline) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__first" href="/tr/learn/first/?framework=stylus-plus">col(first) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-first" href="/tr/learn/not-first/?framework=stylus-plus">col(not-first) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__last" href="/tr/learn/last/?framework=stylus-plus">col(last) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-last" href="/tr/learn/not-last/?framework=stylus-plus">col(not-last) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__reverse" href="/tr/learn/reverse/?framework=stylus-plus">wrap(reverse) (stylus-plus)</a></li>
+                    <li><a class="dn-menu__item dn-menu__item--child dn-menu--learn-child__not-reverse" href="/tr/learn/not-reverse/?framework=stylus-plus">wrap(not-reverse) (stylus-plus)</a></li>
+                  </ul>
+              </li>
+              <li>
+                <a id="menu--support" class="dn-menu__item dn-menu__item--parent" href="/tr/support/">Destek</a>
+              </li>
+              <li>
+                <a id="menu--motivation" class="dn-menu__item dn-menu__item--parent" href="/tr/motivation/">Motivasyon</a>
+              </li>
+              <li>
+                <a id="menu--future" class="dn-menu__item dn-menu__item--parent end" href="/tr/future/">Gelecek</a>
+              </li>
+            </ul>
+          </nav>
+        
+    </div>
+</div>
+<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=flexiblegs" id="_carbonads_js"></script>
+
+      </aside>
+    </section>
+  </body>
+</html>
