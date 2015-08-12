@@ -177,6 +177,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/wrap/" || window.location.pathname == "/tr/learn/wrap/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__wrap").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/wrap/") {
         keydown("/learn/","/learn/col/?framework=" + framework);
@@ -190,6 +193,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/col/" || window.location.pathname == "/tr/learn/col/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__col").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/col/") {
         keydown("/learn/wrap/?framework=" + framework,"/learn/col-width/?framework=" + framework);
@@ -203,6 +209,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/col-width/" || window.location.pathname == "/tr/learn/col-width/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__col-width").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/col-width/") {
         keydown("/learn/col/?framework=" + framework,"/learn/hidden/?framework=" + framework);
@@ -216,6 +225,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/hidden/" || window.location.pathname == "/tr/learn/hidden/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__hidden").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/hidden/") {
         keydown("/learn/col-width/?framework=" + framework,"/learn/not-hidden/?framework=" + framework);
@@ -229,6 +241,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/not-hidden/" || window.location.pathname == "/tr/learn/not-hidden/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__not-hidden").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
         keydown("/learn/hidden/?framework=" + framework,"/learn/gutter/?framework=" + framework);
       }
       if (window.location.pathname == "/learn/not-hidden/") {
@@ -243,6 +258,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/gutter/" || window.location.pathname == "/tr/learn/gutter/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__gutter").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/gutter/") {
         keydown("/learn/not-hidden/?framework=" + framework,"/learn/outside/?framework=" + framework);
@@ -256,6 +274,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/outside/" || window.location.pathname == "/tr/learn/outside/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__outside").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/outside/") {
         keydown("/learn/gutter/?framework=" + framework,"/learn/wrap-width/?framework=" + framework);
@@ -269,6 +290,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/wrap-width/" || window.location.pathname == "/tr/learn/wrap-width/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__wrap-width").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/wrap-width/") {
         keydown("/learn/outside/?framework=" + framework,"/learn/auto/?framework=" + framework);
@@ -282,6 +306,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/auto/" || window.location.pathname == "/tr/learn/auto/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__auto").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/auto/") {
         keydown("/learn/wrap-width/?framework=" + framework,"/learn/table/?framework=" + framework);
@@ -295,6 +322,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/table/" || window.location.pathname == "/tr/learn/table/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__table").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/table/") {
         keydown("/learn/auto/?framework=" + framework,"/learn/flexbox/?framework=" + framework);
@@ -308,6 +338,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/flexbox/" || window.location.pathname == "/tr/learn/flexbox/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__flexbox").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/flexbox/") {
         keydown("/learn/table/?framework=" + framework,"/learn/normal/?framework=" + framework);
@@ -321,6 +354,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/normal/" || window.location.pathname == "/tr/learn/normal/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__normal").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/normal/") {
         keydown("/learn/flexbox/?framework=" + framework,"/learn/left/?framework=" + framework);
@@ -334,6 +370,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/left/" || window.location.pathname == "/tr/learn/left/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__left").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/left/") {
         keydown("/learn/normal/?framework=" + framework,"/learn/center/?framework=" + framework);
@@ -347,6 +386,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/center/" || window.location.pathname == "/tr/learn/center/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__center").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/center/") {
         keydown("/learn/left/?framework=" + framework,"/learn/right/?framework=" + framework);
@@ -360,6 +402,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/right/" || window.location.pathname == "/tr/learn/right/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__right").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/right/") {
         keydown("/learn/center/?framework=" + framework,"/learn/top/?framework=" + framework);
@@ -373,6 +418,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/top/" || window.location.pathname == "/tr/learn/top/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__top").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/top/") {
         keydown("/learn/right/?framework=" + framework,"/learn/middle/?framework=" + framework);
@@ -386,6 +434,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/middle/" || window.location.pathname == "/tr/learn/middle/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__middle").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/middle/") {
         keydown("/learn/top/?framework=" + framework,"/learn/bottom/?framework=" + framework);
@@ -399,6 +450,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/bottom/" || window.location.pathname == "/tr/learn/bottom/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__bottom").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/bottom/") {
         keydown("/learn/middle/?framework=" + framework,"/learn/between/?framework=" + framework);
@@ -412,6 +466,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/between/" || window.location.pathname == "/tr/learn/between/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__between").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/between/") {
         keydown("/learn/bottom/?framework=" + framework,"/learn/around/?framework=" + framework);
@@ -425,6 +482,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/around/" || window.location.pathname == "/tr/learn/around/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__around").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/around/") {
         keydown("/learn/between/?framework=" + framework,"/learn/baseline/?framework=" + framework);
@@ -438,6 +498,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/baseline/" || window.location.pathname == "/tr/learn/baseline/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__baseline").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/baseline/") {
         keydown("/learn/around/?framework=" + framework,"/learn/first/?framework=" + framework);
@@ -451,6 +514,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/first/" || window.location.pathname == "/tr/learn/first/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__first").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/first/") {
         keydown("/learn/baseline/?framework=" + framework,"/learn/not-first/?framework=" + framework);
@@ -464,6 +530,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/not-first/" || window.location.pathname == "/tr/learn/not-first/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__not-first").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/not-first/") {
         keydown("/learn/first/?framework=" + framework,"/learn/last/?framework=" + framework);
@@ -477,6 +546,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/last/" || window.location.pathname == "/tr/learn/last/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__last").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/last/") {
         keydown("/learn/not-first/?framework=" + framework,"/learn/not-last/?framework=" + framework);
@@ -490,6 +562,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/not-last/" || window.location.pathname == "/tr/learn/not-last/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__not-last").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/not-last/") {
         keydown("/learn/last/?framework=" + framework,"/learn/reverse/?framework=" + framework);
@@ -503,6 +578,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/reverse/" || window.location.pathname == "/tr/learn/reverse/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__reverse").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/reverse/") {
         keydown("/learn/not-last/?framework=" + framework,"/learn/not-reverse/?framework=" + framework);
@@ -516,6 +594,9 @@ $(document).on("ready", function() {
       if (window.location.pathname == "/learn/not-reverse/" || window.location.pathname == "/tr/learn/not-reverse/") {
         $(".dn-menu--learn").addClass("active");
         $(".dn-menu--learn-child__not-reverse").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
       }
       if (window.location.pathname == "/learn/not-reverse/") {
         keydown("/learn/reverse/?framework=" + framework,"/support/");
