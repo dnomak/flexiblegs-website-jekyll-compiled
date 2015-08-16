@@ -46,19 +46,19 @@
     <loc>http://flexible.gs/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/motivation/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/install/</loc>
+    <loc>http://flexible.gs/future/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/learn/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/support/</loc>
+    <loc>http://flexible.gs/install/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/future/</loc>
+    <loc>http://flexible.gs/motivation/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/support/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/learn/last/</loc>
@@ -68,6 +68,9 @@
   </url>
   <url>
     <loc>http://flexible.gs/install/less-plus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/masonry/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/learn/middle/</loc>
@@ -163,19 +166,19 @@
     <loc>http://flexible.gs/tr/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/tr/motivation/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/tr/install/</loc>
+    <loc>http://flexible.gs/tr/future/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/tr/support/</loc>
+    <loc>http://flexible.gs/tr/install/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/tr/future/</loc>
+    <loc>http://flexible.gs/tr/motivation/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/support/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/last/</loc>
@@ -185,6 +188,9 @@
   </url>
   <url>
     <loc>http://flexible.gs/tr/install/less-plus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/masonry/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/middle/</loc>
