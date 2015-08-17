@@ -71,7 +71,7 @@ $(document).on("ready", function() {
 
     if (window.location.pathname == "/install/" || window.location.pathname == "/tr/install/") {
       $(".dn-menu--install").addClass("active");
-      $(".dn-menu--install-child").removeClass("hidden");
+      // $(".dn-menu--install-child").removeClass("hidden");
     }
     if (window.location.pathname == "/install/") {
       keydown("/","/learn/");
@@ -168,7 +168,7 @@ $(document).on("ready", function() {
 
     if (window.location.pathname == "/learn/" || window.location.pathname == "/tr/learn/") {
       $(".dn-menu--learn").addClass("active");
-      $("#css--menu").css("display", "block");
+      // $("#css--menu").css("display", "block");
     }
     if (window.location.pathname == "/learn/") {
       keydown("/install/","/support/");
