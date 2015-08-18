@@ -22,7 +22,7 @@
     <loc>http://flexible.gs/learn/center/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/learn/col-width/</loc>
+    <loc>http://flexible.gs/learn/col-row/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/learn/col/</loc>
@@ -115,7 +115,7 @@
     <loc>http://flexible.gs/learn/top/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/learn/wrap-width/</loc>
+    <loc>http://flexible.gs/learn/wrap-col/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/learn/wrap/</loc>
@@ -142,7 +142,7 @@
     <loc>http://flexible.gs/tr/learn/center/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/tr/learn/col-width/</loc>
+    <loc>http://flexible.gs/tr/learn/col-row/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/col/</loc>
@@ -235,7 +235,7 @@
     <loc>http://flexible.gs/tr/learn/top/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/tr/learn/wrap-width/</loc>
+    <loc>http://flexible.gs/tr/learn/wrap-col/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/wrap/</loc>

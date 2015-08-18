@@ -203,25 +203,25 @@ $(document).on("ready", function() {
         }
       }
       if (window.location.pathname == "/learn/col/") {
-        keydown("/learn/wrap/?framework=" + framework,"/learn/col-width/?framework=" + framework);
+        keydown("/learn/wrap/?framework=" + framework,"/learn/col-row/?framework=" + framework);
       }
       if (window.location.pathname == "/tr/learn/col/") {
-        keydown("/tr/learn/wrap/?framework=" + framework,"/tr/learn/col-width/?framework=" + framework);
+        keydown("/tr/learn/wrap/?framework=" + framework,"/tr/learn/col-row/?framework=" + framework);
       }
 
-    // col-width
+    // col-row
 
-      if (window.location.pathname == "/learn/col-width/" || window.location.pathname == "/tr/learn/col-width/") {
+      if (window.location.pathname == "/learn/col-row/" || window.location.pathname == "/tr/learn/col-row/") {
         $(".dn-menu--learn").addClass("active");
-        $(".dn-menu--learn-child__col-width").addClass("active");
+        $(".dn-menu--learn-child__col-row").addClass("active");
         if (framework == "") {
           window.location = "?framework=css";
         }
       }
-      if (window.location.pathname == "/learn/col-width/") {
+      if (window.location.pathname == "/learn/col-row/") {
         keydown("/learn/col/?framework=" + framework,"/learn/hidden/?framework=" + framework);
       }
-      if (window.location.pathname == "/tr/learn/col-width/") {
+      if (window.location.pathname == "/tr/learn/col-row/") {
         keydown("/tr/learn/col/?framework=" + framework,"/tr/learn/hidden/?framework=" + framework);
       }
 
@@ -235,10 +235,10 @@ $(document).on("ready", function() {
         }
       }
       if (window.location.pathname == "/learn/hidden/") {
-        keydown("/learn/col-width/?framework=" + framework,"/learn/not-hidden/?framework=" + framework);
+        keydown("/learn/col-row/?framework=" + framework,"/learn/not-hidden/?framework=" + framework);
       }
       if (window.location.pathname == "/tr/learn/hidden/") {
-        keydown("/tr/learn/col-width/?framework=" + framework,"/tr/learn/not-hidden/?framework=" + framework);
+        keydown("/tr/learn/col-row/?framework=" + framework,"/tr/learn/not-hidden/?framework=" + framework);
       }
 
     // not-hidden
@@ -284,25 +284,25 @@ $(document).on("ready", function() {
         }
       }
       if (window.location.pathname == "/learn/outside/") {
-        keydown("/learn/gutter/?framework=" + framework,"/learn/wrap-width/?framework=" + framework);
+        keydown("/learn/gutter/?framework=" + framework,"/learn/wrap-col/?framework=" + framework);
       }
       if (window.location.pathname == "/tr/learn/outside/") {
-        keydown("/tr/learn/gutter/?framework=" + framework,"/tr/learn/wrap-width/?framework=" + framework);
+        keydown("/tr/learn/gutter/?framework=" + framework,"/tr/learn/wrap-col/?framework=" + framework);
       }
 
-    // wrap-width
+    // wrap-col
 
-      if (window.location.pathname == "/learn/wrap-width/" || window.location.pathname == "/tr/learn/wrap-width/") {
+      if (window.location.pathname == "/learn/wrap-col/" || window.location.pathname == "/tr/learn/wrap-col/") {
         $(".dn-menu--learn").addClass("active");
-        $(".dn-menu--learn-child__wrap-width").addClass("active");
+        $(".dn-menu--learn-child__wrap-col").addClass("active");
         if (framework == "") {
           window.location = "?framework=css";
         }
       }
-      if (window.location.pathname == "/learn/wrap-width/") {
+      if (window.location.pathname == "/learn/wrap-col/") {
         keydown("/learn/outside/?framework=" + framework,"/learn/auto/?framework=" + framework);
       }
-      if (window.location.pathname == "/tr/learn/wrap-width/") {
+      if (window.location.pathname == "/tr/learn/wrap-col/") {
         keydown("/tr/learn/outside/?framework=" + framework,"/tr/learn/auto/?framework=" + framework);
       }
 
@@ -316,10 +316,10 @@ $(document).on("ready", function() {
         }
       }
       if (window.location.pathname == "/learn/auto/") {
-        keydown("/learn/wrap-width/?framework=" + framework,"/learn/table/?framework=" + framework);
+        keydown("/learn/wrap-col/?framework=" + framework,"/learn/table/?framework=" + framework);
       }
       if (window.location.pathname == "/tr/learn/auto/") {
-        keydown("/tr/learn/wrap-width/?framework=" + framework,"/tr/learn/table/?framework=" + framework);
+        keydown("/tr/learn/wrap-col/?framework=" + framework,"/tr/learn/table/?framework=" + framework);
       }
 
     // table
@@ -348,26 +348,10 @@ $(document).on("ready", function() {
         }
       }
       if (window.location.pathname == "/learn/flexbox/") {
-        keydown("/learn/table/?framework=" + framework,"/learn/masonry/?framework=" + framework);
+        keydown("/learn/table/?framework=" + framework,"/learn/normal/?framework=" + framework);
       }
       if (window.location.pathname == "/tr/learn/flexbox/") {
-        keydown("/tr/learn/table/?framework=" + framework,"/tr/learn/masonry/?framework=" + framework);
-      }
-
-    // masonry
-
-      if (window.location.pathname == "/learn/masonry/" || window.location.pathname == "/tr/learn/masonry/") {
-        $(".dn-menu--learn").addClass("active");
-        $(".dn-menu--learn-child__masonry").addClass("active");
-        if (framework == "") {
-          window.location = "?framework=css";
-        }
-      }
-      if (window.location.pathname == "/learn/masonry/") {
-        keydown("/learn/flexbox/?framework=" + framework,"/learn/normal/?framework=" + framework);
-      }
-      if (window.location.pathname == "/tr/learn/masonry/") {
-        keydown("/tr/learn/flexbox/?framework=" + framework,"/tr/learn/normal/?framework=" + framework);
+        keydown("/tr/learn/table/?framework=" + framework,"/tr/learn/normal/?framework=" + framework);
       }
 
     // normal
@@ -380,10 +364,10 @@ $(document).on("ready", function() {
         }
       }
       if (window.location.pathname == "/learn/normal/") {
-        keydown("/learn/masonry/?framework=" + framework,"/learn/left/?framework=" + framework);
+        keydown("/learn/flexbox/?framework=" + framework,"/learn/left/?framework=" + framework);
       }
       if (window.location.pathname == "/tr/learn/normal/") {
-        keydown("/tr/learn/masonry/?framework=" + framework,"/tr/learn/left/?framework=" + framework);
+        keydown("/tr/learn/flexbox/?framework=" + framework,"/tr/learn/left/?framework=" + framework);
       }
 
     // left
@@ -620,10 +604,26 @@ $(document).on("ready", function() {
         }
       }
       if (window.location.pathname == "/learn/not-reverse/") {
-        keydown("/learn/reverse/?framework=" + framework,"/support/");
+        keydown("/learn/reverse/?framework=" + framework,"/learn/masonry/?framework=" + framework);
       }
       if (window.location.pathname == "/tr/learn/not-reverse/") {
-        keydown("/tr/learn/reverse/?framework=" + framework,"/tr/support/");
+        keydown("/tr/learn/reverse/?framework=" + framework,"/tr/learn/masonry/?framework=" + framework);
+      }
+
+    // masonry
+
+      if (window.location.pathname == "/learn/masonry/" || window.location.pathname == "/tr/learn/masonry/") {
+        $(".dn-menu--learn").addClass("active");
+        $(".dn-menu--learn-child__masonry").addClass("active");
+        if (framework == "") {
+          window.location = "?framework=css";
+        }
+      }
+      if (window.location.pathname == "/learn/masonry/") {
+        keydown("/learn/not-reverse/?framework=" + framework,"/support/");
+      }
+      if (window.location.pathname == "/tr/learn/masonry/") {
+        keydown("/tr/learn/not-reverse/?framework=" + framework,"/tr/support/");
       }
 
   // support
