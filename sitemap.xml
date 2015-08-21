@@ -10,9 +10,6 @@
     <loc>http://flexible.gs/learn/baseline/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/install/bem/</loc>
-  </url>
-  <url>
     <loc>http://flexible.gs/learn/between/</loc>
   </url>
   <url>
@@ -26,9 +23,6 @@
   </url>
   <url>
     <loc>http://flexible.gs/learn/col/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/install/css/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/learn/first/</loc>
@@ -46,28 +40,43 @@
     <loc>http://flexible.gs/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/future/</loc>
-  </url>
-  <url>
     <loc>http://flexible.gs/learn/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/install/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/motivation/</loc>
+    <loc>http://flexible.gs/install/less-plus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/install/bem/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/install/scss-plus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/install/css/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/support/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/install/stylus-plus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/future/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/motivation/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/install/sass-plus/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/learn/last/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/learn/left/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/install/less-plus/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/learn/masonry/</loc>
@@ -100,15 +109,6 @@
     <loc>http://flexible.gs/learn/right/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/install/sass-plus/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/install/scss-plus/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/install/stylus-plus/</loc>
-  </url>
-  <url>
     <loc>http://flexible.gs/learn/table/</loc>
   </url>
   <url>
@@ -130,9 +130,6 @@
     <loc>http://flexible.gs/tr/learn/baseline/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/tr/install/bem/</loc>
-  </url>
-  <url>
     <loc>http://flexible.gs/tr/learn/between/</loc>
   </url>
   <url>
@@ -146,9 +143,6 @@
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/col/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/tr/install/css/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/first/</loc>
@@ -166,28 +160,43 @@
     <loc>http://flexible.gs/tr/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/tr/future/</loc>
-  </url>
-  <url>
     <loc>http://flexible.gs/tr/learn/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/install/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/tr/motivation/</loc>
+    <loc>http://flexible.gs/tr/install/less-plus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/install/bem/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/install/scss-plus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/install/css/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/support/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/install/stylus-plus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/future/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/motivation/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/install/sass-plus/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/last/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/left/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/tr/install/less-plus/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/masonry/</loc>
@@ -218,15 +227,6 @@
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/right/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/tr/install/sass-plus/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/tr/install/scss-plus/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/tr/install/stylus-plus/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/table/</loc>
