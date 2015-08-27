@@ -121,10 +121,24 @@ $(document).on("ready", function() {
         $(".dn-menu--install-child__bem").addClass("active");
       }
       if (window.location.pathname == "/install/bem/") {
-        keydown("/install/css/","/install/scss-plus/");
+        keydown("/install/css/","/install/scss/");
       }
       if (window.location.pathname == "/tr/install/bem/") {
-        keydown("/tr/install/css/","/tr/install/scss-plus/");
+        keydown("/tr/install/css/","/tr/install/scss/");
+      }
+
+    // scss
+
+      if (window.location.pathname == "/install/scss/" || window.location.pathname == "/tr/install/scss/") {
+        $(".dn-menu--install").addClass("active");
+        $(".dn-menu--install-child").removeClass("hidden");
+        $(".dn-menu--install-child__scss").addClass("active");
+      }
+      if (window.location.pathname == "/install/scss/") {
+        keydown("/install/bem/","/install/scss-plus/");
+      }
+      if (window.location.pathname == "/tr/install/scss/") {
+        keydown("/tr/install/bem/","/tr/install/scss-plus/");
       }
 
     // scss-plus
