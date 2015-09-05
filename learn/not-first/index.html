@@ -37,14 +37,22 @@
   <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin,latin-ext" rel="stylesheet" type="text/css">
 
   <script src="/js/app.js"></script>
-  <script>
+  <script type="text/javascript">
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-25094721-4', 'auto');
     ga('send', 'pageview');
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'flexiblegs';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
   </script>
 
   <title>col(not-first) (en) - flexible.gs </title>
@@ -463,6 +471,7 @@
               
             </span>
             <div class="dn-space-24"></div>
+            <div class="dn-space-24"></div>
           </div>
           <div class="col">
             <a href="https://github.com/dnomak" class="dn-style--footer-link">
@@ -471,6 +480,7 @@
               
               
             </a>
+            <div class="dn-space-24 lg-hidden"></div>
             <div class="dn-space-24"></div>
           </div>
         </div>
@@ -485,6 +495,7 @@
             <a href="/camiila" class="ca-logo ca-logo-group--blue"></a>
           </div>
         </div>
+        <div class="dn-space-24 lg-hidden"></div>
         <div class="dn-space-24 lg-hidden"></div>
       </article>
       <aside class="col xl-3-12 dn-style--aside">
@@ -755,5 +766,6 @@
 
       </aside>
     </section>
+    <div id="disqus_thread"></div>
   </body>
 </html>
