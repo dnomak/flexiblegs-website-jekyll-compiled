@@ -156,10 +156,10 @@ $(document).on("ready", function() {
         $(".dn-menu--install-child__scss-plus").addClass("active");
       }
       if (window.location.pathname == "/install/scss-plus/") {
-        keydown("/install/bem/","/install/sass-plus/");
+        keydown("/install/scss/","/install/sass-plus/");
       }
       if (window.location.pathname == "/tr/install/scss-plus/") {
-        keydown("/tr/install/bem/","/tr/install/sass-plus/");
+        keydown("/tr/install/scss/","/tr/install/sass-plus/");
       }
 
     // sass-plus
