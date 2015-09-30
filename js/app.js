@@ -74,13 +74,6 @@ $(document).on("ready", function() {
     });
   }
 
-  // camiila
-
-    if(window.location.pathname == "/camiila/" || window.location.pathname == "/tr/camiila/") {
-      window.location = "http://camiila.com/?source=flexiblegs";
-    }
-
-
   // homepage
 
     if(window.location.pathname == "/" || window.location.pathname == "/tr/") {
