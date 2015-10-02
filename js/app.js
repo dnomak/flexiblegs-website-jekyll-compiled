@@ -83,10 +83,10 @@ $(document).on("ready", function() {
       $("#menu--homepage").addClass("active");
     }
     if(window.location.pathname == "/") {
-      keydown("/future/","/install/");
+      keydown("/say-something/","/install/");
     }
     if(window.location.pathname == "/tr/") {
-      keydown("/tr/future/","/tr/install/");
+      keydown("/tr/say-something/","/tr/install/");
     }
 
   // install
@@ -692,10 +692,23 @@ $(document).on("ready", function() {
       $("#menu--future").addClass("active");
     }
     if (window.location.pathname == "/future/") {
-      keydown("/motivation/","/");
+      keydown("/motivation/","/say-something/");
     }
     if (window.location.pathname == "/tr/future/") {
-      keydown("/tr/motivation/","/tr/");
+      keydown("/tr/motivation/","/tr/say-something/");
     }
+
+  // say-something
+
+    if (window.location.pathname == "/say-something/" || window.location.pathname == "/tr/say-something/") {
+      $("#menu--say-something").addClass("active");
+    }
+    if (window.location.pathname == "/say-something/") {
+      keydown("/future/","/");
+    }
+    if (window.location.pathname == "/tr/say-something/") {
+      keydown("/tr/future/","/tr/");
+    }
+
 
 });

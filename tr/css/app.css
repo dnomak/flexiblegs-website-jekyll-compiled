@@ -4682,7 +4682,8 @@ pre {
     text-align: right; }
   .dn-button--icon {
     background: #fff;
-    padding: 12px 0; }
+    padding: 12px 0;
+    border-bottom: 1px solid #E8E8E8; }
     .dn-button--icon .fa-github-alt, .dn-button--icon .fa-codepen {
       color: #333; }
     .dn-button--icon .fa-twitter {
