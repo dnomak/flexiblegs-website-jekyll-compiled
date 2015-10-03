@@ -4527,7 +4527,7 @@ pre {
     background: #E74C3C;
     text-align: center;
     display: inline-block;
-    background: #3A99D8;
+    background: #1094F6;
     margin: 0;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -4586,16 +4586,17 @@ pre {
   display: inline-block;
   color: #a1a1a1; }
   .dn-style--footer-link b {
-    color: #EB4A2C; }
+    color: #EC1561;
+    font-weight: bold; }
 .dn-style--wrap {
-  background: #FED5D6;
+  background: #FBD0DF;
   min-height: 48px;
   position: relative; }
 .dn-style--col {
   font-family: 'Source Code Pro';
   display: block;
   color: white;
-  background: #3A99D8;
+  background: #1094F6;
   line-height: 48px;
   min-height: 48px;
   padding: 0 24px;
@@ -4685,13 +4686,13 @@ pre {
     padding: 12px 0;
     border-bottom: 1px solid #E8E8E8; }
     .dn-button--icon .fa-github-alt, .dn-button--icon .fa-codepen {
-      color: #333; }
+      color: #222; }
     .dn-button--icon .fa-twitter {
-      color: #3398DB; }
+      color: #1094F6; }
     .dn-button--icon .fa-star {
-      color: #FFC700; }
+      color: #FFC200; }
     .dn-button--icon .fa-heart {
-      color: #E94B35; }
+      color: #EC1561; }
     .dn-button--icon:hover {
       background: #F5F5F5; }
   .dn-button--link {
@@ -4726,7 +4727,7 @@ pre {
     .dn-content .gray p {
       font-size: 17px; }
   .dn-content a {
-    color: #2B97DE;
+    color: #1094F6;
     font-weight: normal; }
     .dn-content a:hover {
       color: #222; }
@@ -4891,16 +4892,16 @@ pre {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0; }
   .dn-tag--red {
-    background: #E74C3C; }
+    background: #EC1561; }
   .dn-tag--green {
     background: #2ECC71; }
   .dn-tag--purple {
     background: #9D52BA; }
   .dn-tag--yellow {
-    background: #FFC800;
+    background: #FFC200;
     color: #222; }
   .dn-tag--blue {
-    background: #3398DB; }
+    background: #1094F6; }
   .dn-tag--gray {
     background: #E8E8E8;
     color: #a1a1a1; }
@@ -4951,7 +4952,7 @@ pre {
     height: 56px; }
 
 .wtk15 {
-  border: 2px solid #FFE152;
+  border: 2px solid #FFC200;
   background: #FFF;
   line-height: 0;
   text-align: center;
