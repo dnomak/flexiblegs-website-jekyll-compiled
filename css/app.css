@@ -4606,6 +4606,9 @@ pre {
   .dn-style--col span {
     color: rgba(255, 255, 255, 0.2); }
 
+.dn-text-center {
+  text-align: center; }
+
 .dn-browser {
   margin-top: 24px; }
   .dn-browser-header {
