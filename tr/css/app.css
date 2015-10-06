@@ -4535,11 +4535,11 @@ pre {
 
 ::-moz-selection {
   color: #fff;
-  background: #1ECE6D; }
+  background: #12d469; }
 
 ::selection {
   color: #fff;
-  background: #1ECE6D; }
+  background: #12d469; }
 
 ::-webkit-input-placeholder {
   color: #a1a1a1; }
@@ -4693,7 +4693,7 @@ pre {
     .dn-button--icon .fa-twitter {
       color: #1094F6; }
     .dn-button--icon .fa-star {
-      color: #FFC200; }
+      color: #FFCC00; }
     .dn-button--icon .fa-heart {
       color: #EC1561; }
     .dn-button--icon:hover {
@@ -4832,7 +4832,7 @@ pre {
     color: #a1a1a1; }
     .dn-menu__item--child.active {
       color: #fff;
-      background: #2ECC71; }
+      background: #12d469; }
 
 .dn-menu--install-child.hidden, .dn-menu--learn-child.hidden {
   display: none; }
@@ -4897,11 +4897,11 @@ pre {
   .dn-tag--red {
     background: #EC1561; }
   .dn-tag--green {
-    background: #2ECC71; }
+    background: #12d469; }
   .dn-tag--purple {
     background: #9D52BA; }
   .dn-tag--yellow {
-    background: #FFC200;
+    background: #FFCC00;
     color: #222; }
   .dn-tag--blue {
     background: #1094F6; }
@@ -4955,7 +4955,7 @@ pre {
     height: 56px; }
 
 .wtk15 {
-  border: 2px solid #FFC200;
+  border: 2px solid #FFCC00;
   background: #FFF;
   line-height: 0;
   text-align: center;
@@ -5027,7 +5027,7 @@ pre {
   padding: 0 16px;
   color: #222;
   background: #fff;
-  border: 2px solid #1ECE6D;
+  border: 2px solid #12d469;
   border-right: 0;
   outline: none;
   -webkit-border-radius: 8px;
@@ -5058,7 +5058,7 @@ pre {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   border: 0;
-  background: #1ECE6D;
+  background: #12d469;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
