@@ -892,6 +892,9 @@ th {
 .xl-11-12 {
   width: 91.66667%; }
 
+.xl-width-360 {
+  width: 360px; }
+
 .xl-hidden {
   display: none; }
 
@@ -1436,6 +1439,9 @@ th {
   .lg-11-12 {
     width: 91.66667%; }
 
+  .lg-width-360 {
+    width: 360px; }
+
   .lg-hidden {
     display: none; }
 
@@ -1979,6 +1985,9 @@ th {
   .md-11-12 {
     width: 91.66667%; }
 
+  .md-width-360 {
+    width: 360px; }
+
   .md-hidden {
     display: none; }
 
@@ -2521,6 +2530,9 @@ th {
 
   .sm-11-12 {
     width: 91.66667%; }
+
+  .sm-width-360 {
+    width: 360px; }
 
   .sm-hidden {
     display: none; }
@@ -4467,6 +4479,9 @@ th {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   outline: 0; }
 
 html, body {
@@ -4578,7 +4593,7 @@ pre {
     font-weight: bold; }
 .dn-style--aside {
   position: fixed;
-  padding-right: 18px; }
+  width: 336px; }
 .dn-style--footer-link {
   font-family: 'Source Code Pro';
   margin: 0;
@@ -4668,7 +4683,8 @@ pre {
     .dn-browser-body__pre {
       padding: 40px 40px 0 40px; }
     .dn-browser-body--menu {
-      overflow: scroll;
+      overflow-y: scroll;
+      overflow-x: hidden;
       max-height: calc(100vh - 360px); }
   .dn-browser-footer {
     background: #E8E8E8;
