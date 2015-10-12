@@ -80,13 +80,13 @@ $(document).on("ready", function() {
   // homepage
 
     if(window.location.pathname == "/" || window.location.pathname == "/tr/") {
-      $("#menu--homepage").addClass("active");
+      $("#homepage").addClass("active");
     }
     if(window.location.pathname == "/") {
-      keydown("/say-something/","/install/");
+      keydown("/say-something/#say-something","/install/#install");
     }
     if(window.location.pathname == "/tr/") {
-      keydown("/tr/say-something/","/tr/install/");
+      keydown("/tr/say-something/#say-something","/tr/install/#install");
     }
 
   // install
@@ -96,10 +96,10 @@ $(document).on("ready", function() {
       $(".dn-menu--install-child").removeClass("hidden");
     }
     if (window.location.pathname == "/install/") {
-      keydown("/","/learn/");
+      keydown("/#homepage","/learn/#learn");
     }
     if (window.location.pathname == "/tr/install/") {
-      keydown("/tr/","/tr/learn/");
+      keydown("/tr/#homepage","/tr/learn/#learn");
     }
 
     // css
@@ -207,10 +207,10 @@ $(document).on("ready", function() {
       $("#css--menu").css("display", "block");
     }
     if (window.location.pathname == "/learn/") {
-      keydown("/install/","/compatibility/");
+      keydown("/install/#install","/compatibility/#compatibility");
     }
     if (window.location.pathname == "/tr/learn/") {
-      keydown("/tr/install/","/tr/compatibility/");
+      keydown("/tr/install/#install","/tr/compatibility/#compatibility");
     }
 
     // wrap
@@ -665,49 +665,49 @@ $(document).on("ready", function() {
   // compatibility
 
     if (window.location.pathname == "/compatibility/" || window.location.pathname == "/tr/compatibility/") {
-      $("#menu--compatibility").addClass("active");
+      $("#compatibility").addClass("active");
     }
     if (window.location.pathname == "/compatibility/") {
-      keydown("/learn/","/motivation/");
+      keydown("/learn/#learn","/motivation/#motivation");
     }
     if (window.location.pathname == "/tr/compatibility/") {
-      keydown("/tr/learn/","/tr/motivation/");
+      keydown("/tr/learn/#learn","/tr/motivation/#motivation");
     }
 
   // motivation
 
     if (window.location.pathname == "/motivation/" || window.location.pathname == "/tr/motivation/") {
-      $("#menu--motivation").addClass("active");
+      $("#motivation").addClass("active");
     }
     if (window.location.pathname == "/motivation/") {
-      keydown("/compatibility/","/future/");
+      keydown("/compatibility/#compatibility","/future/#future");
     }
     if (window.location.pathname == "/tr/motivation/") {
-      keydown("/tr/compatibility/","/tr/future/");
+      keydown("/tr/compatibility/#compatibility","/tr/future/#future");
     }
 
   // future
 
     if (window.location.pathname == "/future/" || window.location.pathname == "/tr/future/") {
-      $("#menu--future").addClass("active");
+      $("#future").addClass("active");
     }
     if (window.location.pathname == "/future/") {
-      keydown("/motivation/","/say-something/");
+      keydown("/motivation/#motivation","/say-something/#say-something");
     }
     if (window.location.pathname == "/tr/future/") {
-      keydown("/tr/motivation/","/tr/say-something/");
+      keydown("/tr/motivation/#motivation","/tr/say-something/#say-something");
     }
 
   // say-something
 
     if (window.location.pathname == "/say-something/" || window.location.pathname == "/tr/say-something/") {
-      $("#menu--say-something").addClass("active");
+      $("#say-something").addClass("active");
     }
     if (window.location.pathname == "/say-something/") {
-      keydown("/future/","/");
+      keydown("/future/#future","/#homepage");
     }
     if (window.location.pathname == "/tr/say-something/") {
-      keydown("/tr/future/","/tr/");
+      keydown("/tr/future/#future","/tr/#homepage");
     }
 
 
