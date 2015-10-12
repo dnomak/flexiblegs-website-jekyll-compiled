@@ -110,10 +110,10 @@ $(document).on("ready", function() {
         $(".dn-menu--install-child__css").addClass("active");
       }
       if (window.location.pathname == "/install/css/") {
-        keydown("/install/","/install/bem/");
+        keydown("/install/#install","/install/bem/#install-bem");
       }
       if (window.location.pathname == "/tr/install/css/") {
-        keydown("/tr/install/","/tr/install/bem/");
+        keydown("/tr/install/#install","/tr/install/bem/#install-bem");
       }
 
     // bem
@@ -124,10 +124,10 @@ $(document).on("ready", function() {
         $(".dn-menu--install-child__bem").addClass("active");
       }
       if (window.location.pathname == "/install/bem/") {
-        keydown("/install/css/","/install/scss/");
+        keydown("/install/css/#install-css","/install/scss/#install-scss");
       }
       if (window.location.pathname == "/tr/install/bem/") {
-        keydown("/tr/install/css/","/tr/install/scss/");
+        keydown("/tr/install/css/#install-css","/tr/install/scss/#install-scss");
       }
 
     // scss
@@ -138,10 +138,10 @@ $(document).on("ready", function() {
         $(".dn-menu--install-child__scss").addClass("active");
       }
       if (window.location.pathname == "/install/scss/") {
-        keydown("/install/bem/","/install/scss-plus/");
+        keydown("/install/bem/#install-bem","/install/scss-plus/#install-scss-plus");
       }
       if (window.location.pathname == "/tr/install/scss/") {
-        keydown("/tr/install/bem/","/tr/install/scss-plus/");
+        keydown("/tr/install/bem/#install-bem","/tr/install/scss-plus/#install-scss-plus");
       }
 
     // scss-plus
@@ -152,10 +152,10 @@ $(document).on("ready", function() {
         $(".dn-menu--install-child__scss-plus").addClass("active");
       }
       if (window.location.pathname == "/install/scss-plus/") {
-        keydown("/install/scss/","/install/sass-plus/");
+        keydown("/install/scss/#install-scss","/install/sass-plus/#install-sass-plus");
       }
       if (window.location.pathname == "/tr/install/scss-plus/") {
-        keydown("/tr/install/scss/","/tr/install/sass-plus/");
+        keydown("/tr/install/scss/#install-scss","/tr/install/sass-plus/#install-sass-plus");
       }
 
     // sass-plus
@@ -166,10 +166,10 @@ $(document).on("ready", function() {
         $(".dn-menu--install-child__sass-plus").addClass("active");
       }
       if (window.location.pathname == "/install/sass-plus/") {
-        keydown("/install/scss-plus/","/install/less-plus/");
+        keydown("/install/scss-plus/#install-scss-plus","/install/less-plus/#install-less-plus");
       }
       if (window.location.pathname == "/tr/install/sass-plus/") {
-        keydown("/tr/install/scss-plus/","/tr/install/less-plus/");
+        keydown("/tr/install/scss-plus/#install-scss-plus","/tr/install/less-plus/#install-less-plus");
       }
 
     // less-plus
@@ -180,10 +180,10 @@ $(document).on("ready", function() {
         $(".dn-menu--install-child__less-plus").addClass("active");
       }
       if (window.location.pathname == "/install/less-plus/") {
-        keydown("/install/sass-plus/","/install/stylus-plus/");
+        keydown("/install/sass-plus/#install-sass-plus","/install/stylus-plus/#install-stylus-plus");
       }
       if (window.location.pathname == "/tr/install/less-plus/") {
-        keydown("/tr/install/sass-plus/","/tr/install/stylus-plus/");
+        keydown("/tr/install/sass-plus/#install-sass-plus","/tr/install/stylus-plus/#install-stylus-plus");
       }
 
     // stylus-plus
@@ -194,10 +194,10 @@ $(document).on("ready", function() {
         $(".dn-menu--install-child__stylus-plus").addClass("active");
       }
       if (window.location.pathname == "/install/stylus-plus/") {
-        keydown("/install/less-plus/","/learn/");
+        keydown("/install/less-plus/#install-less-plus","/learn/#learn");
       }
       if (window.location.pathname == "/tr/install/stylus-plus/") {
-        keydown("/tr/install/less-plus/","/tr/learn/");
+        keydown("/tr/install/less-plus/#install-less-plus","/tr/learn/#learn");
       }
 
   // learn
