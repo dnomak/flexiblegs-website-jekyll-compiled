@@ -204,7 +204,7 @@ $(document).on("ready", function() {
 
     if (window.location.pathname == "/learn/" || window.location.pathname == "/tr/learn/") {
       $(".dn-menu--learn").addClass("active");
-      $("#css--menu").css("display", "block");
+      $("#learn--menu").css("display", "block");
     }
     if (window.location.pathname == "/learn/") {
       keydown("/install/#install","/compatibility/#compatibility");
