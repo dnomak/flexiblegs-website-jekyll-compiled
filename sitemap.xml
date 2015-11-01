@@ -55,13 +55,13 @@
     <loc>http://flexible.gs/future/</loc>
   </url>
   <url>
+    <loc>http://flexible.gs/install/scss-plus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/motivation/</loc>
+  </url>
+  <url>
     <loc>http://flexible.gs/install/sass-plus/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/install/bem/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/say-something/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/install/scss/</loc>
@@ -73,10 +73,7 @@
     <loc>http://flexible.gs/learn/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/motivation/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/install/scss-plus/</loc>
+    <loc>http://flexible.gs/install/bem/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/learn/last/</loc>
@@ -181,13 +178,13 @@
     <loc>http://flexible.gs/tr/future/</loc>
   </url>
   <url>
+    <loc>http://flexible.gs/tr/install/scss-plus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/motivation/</loc>
+  </url>
+  <url>
     <loc>http://flexible.gs/tr/install/sass-plus/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/tr/install/bem/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/tr/say-something/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/install/scss/</loc>
@@ -199,10 +196,7 @@
     <loc>http://flexible.gs/tr/learn/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/tr/motivation/</loc>
-  </url>
-  <url>
-    <loc>http://flexible.gs/tr/install/scss-plus/</loc>
+    <loc>http://flexible.gs/tr/install/bem/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/last/</loc>
