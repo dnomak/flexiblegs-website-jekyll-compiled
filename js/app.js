@@ -83,10 +83,10 @@ $(document).on("ready", function() {
       $("#homepage").addClass("active");
     }
     if(window.location.pathname == "/") {
-      keydown("/say-something/#say-something","/install/#install");
+      keydown("/future/#future","/install/#install");
     }
     if(window.location.pathname == "/tr/") {
-      keydown("/tr/say-something/#say-something","/tr/install/#install");
+      keydown("/tr/future/#future","/tr/install/#install");
     }
 
   // install
@@ -691,23 +691,10 @@ $(document).on("ready", function() {
       $("#future").addClass("active");
     }
     if (window.location.pathname == "/future/") {
-      keydown("/motivation/#motivation","/say-something/#say-something");
+      keydown("/motivation/#motivation","/#homepage");
     }
     if (window.location.pathname == "/tr/future/") {
-      keydown("/tr/motivation/#motivation","/tr/say-something/#say-something");
+      keydown("/tr/motivation/#motivation","/tr/#homepage");
     }
-
-  // say-something
-
-    if (window.location.pathname == "/say-something/" || window.location.pathname == "/tr/say-something/") {
-      $("#say-something").addClass("active");
-    }
-    if (window.location.pathname == "/say-something/") {
-      keydown("/future/#future","/#homepage");
-    }
-    if (window.location.pathname == "/tr/say-something/") {
-      keydown("/tr/future/#future","/tr/#homepage");
-    }
-
 
 });
