@@ -5171,6 +5171,15 @@ pre {
 .dn-text-center {
   text-align: center; }
 
+.dn-text-left {
+  text-align: left; }
+
+.dn-text-right {
+  text-align: right; }
+
+.github-button {
+  color: #FFF; }
+
 .dn-browser {
   margin-top: 24px; }
   .dn-browser-header {
@@ -5525,7 +5534,7 @@ pre {
   -moz-border-radius: 8px;
   border-radius: 8px;
   padding: 16px 16px 0 16px;
-  margin-bottom: 24px; }
+  margin-bottom: 40px; }
   #carbonads:hover {
     background: #fff; }
   #carbonads a {
