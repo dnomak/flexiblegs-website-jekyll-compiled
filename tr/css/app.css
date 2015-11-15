@@ -5232,7 +5232,7 @@ pre {
     .dn-browser-body--menu {
       overflow-y: scroll;
       overflow-x: hidden;
-      max-height: calc(100vh - 360px); }
+      max-height: calc(100vh - 494px); }
   .dn-browser-footer {
     background: #E8E8E8;
     border: 2px solid #E8E8E8; }
@@ -5508,7 +5508,7 @@ pre {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  padding: 28px 16px 36px 16px;
+  padding: 16px;
   margin-bottom: 24px; }
   .wtk15 img {
     width: 100%;
