@@ -5062,7 +5062,8 @@ pre {
   font-size: 14px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
-  border-radius: 8px; }
+  border-radius: 8px;
+  text-align: left; }
   pre .comment {
     color: #a1a1a1; }
     pre .comment span {
@@ -5118,19 +5119,19 @@ pre {
 
 #css,
 #bem,
-#scss-plus,
-#sass-plus,
-#less-plus,
-#stylus-plus {
+#scss,
+#sass,
+#less,
+#stylus {
   display: none; }
 
 #learn--menu,
 #css--menu,
 #bem--menu,
-#scss-plus--menu,
-#sass-plus--menu,
-#less-plus--menu,
-#stylus-plus--menu {
+#scss--menu,
+#sass--menu,
+#less--menu,
+#stylus--menu {
   display: none; }
 
 .dn-style--title {
@@ -5241,7 +5242,7 @@ pre {
     .dn-browser-body--menu {
       overflow-y: scroll;
       overflow-x: hidden;
-      max-height: calc(100vh - 494px); }
+      max-height: calc(100vh - 360px); }
   .dn-browser-footer {
     background: #E8E8E8;
     border: 2px solid #E8E8E8; }
@@ -5511,21 +5512,6 @@ pre {
     margin-top: 10px;
     width: 28px;
     height: 56px; }
-
-.wtk15 {
-  border: 2px solid #FFCC00;
-  background: #FFF;
-  line-height: 0;
-  text-align: center;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 24px; }
-  .wtk15 img {
-    width: 100%;
-    max-width: 350px;
-    vertical-align: middle; }
 
 #carbonads {
   font-family: Open Sans;

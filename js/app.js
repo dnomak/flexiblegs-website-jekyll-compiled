@@ -35,22 +35,22 @@ $(document).on("ready", function() {
   var framework = getParameterByName("framework");
 
   if (framework == "css") {
-    $('title').append("css");
+    $('title').append("CSS");
   }
   if (framework == "bem") {
-    $('title').append("bem");
+    $('title').append("BEM");
   }
-  if (framework == "scss-plus") {
-    $('title').append("scss-plus");
+  if (framework == "scss") {
+    $('title').append("Scss");
   }
-  if (framework == "sass-plus") {
-    $('title').append("sass-plus");
+  if (framework == "sass") {
+    $('title').append("Sass");
   }
-  if (framework == "less-plus") {
-    $('title').append("less-plus");
+  if (framework == "less") {
+    $('title').append("Less");
   }
-  if (framework == "stylus-plus") {
-    $('title').append("stylus-plus");
+  if (framework == "stylus") {
+    $('title').append("Stylus");
   }
 
   var submenu = function(variable) {
@@ -61,10 +61,10 @@ $(document).on("ready", function() {
   }
   submenu("css");
   submenu("bem");
-  submenu("scss-plus");
-  submenu("sass-plus");
-  submenu("less-plus");
-  submenu("stylus-plus");
+  submenu("scss");
+  submenu("sass");
+  submenu("less");
+  submenu("stylus");
 
   var keydown = function(left,right) {
     $("body").keydown(function(e) {
@@ -124,24 +124,10 @@ $(document).on("ready", function() {
         $(".dn-menu--install-child__bem").addClass("active");
       }
       if (window.location.pathname == "/install/bem/") {
-        keydown("/install/css/#install-css","/install/scss/#install-scss");
+        keydown("/install/css/#install-css","/install/scss-plus/#install-scss-plus");
       }
       if (window.location.pathname == "/tr/install/bem/") {
-        keydown("/tr/install/css/#install-css","/tr/install/scss/#install-scss");
-      }
-
-    // scss
-
-      if (window.location.pathname == "/install/scss/" || window.location.pathname == "/tr/install/scss/") {
-        $(".dn-menu--install").addClass("active");
-        $(".dn-menu--install-child").removeClass("hidden");
-        $(".dn-menu--install-child__scss").addClass("active");
-      }
-      if (window.location.pathname == "/install/scss/") {
-        keydown("/install/bem/#install-bem","/install/scss-plus/#install-scss-plus");
-      }
-      if (window.location.pathname == "/tr/install/scss/") {
-        keydown("/tr/install/bem/#install-bem","/tr/install/scss-plus/#install-scss-plus");
+        keydown("/tr/install/css/#install-css","/tr/install/scss-plus/#install-scss-plus");
       }
 
     // scss-plus
@@ -152,52 +138,66 @@ $(document).on("ready", function() {
         $(".dn-menu--install-child__scss-plus").addClass("active");
       }
       if (window.location.pathname == "/install/scss-plus/") {
-        keydown("/install/scss/#install-scss","/install/sass-plus/#install-sass-plus");
+        keydown("/install/bem/#install-bem","/install/scss/#install-scss");
       }
       if (window.location.pathname == "/tr/install/scss-plus/") {
-        keydown("/tr/install/scss/#install-scss","/tr/install/sass-plus/#install-sass-plus");
+        keydown("/tr/install/bem/#install-bem","/tr/install/scss/#install-scss");
       }
 
-    // sass-plus
+    // scss
 
-      if (window.location.pathname == "/install/sass-plus/" || window.location.pathname == "/tr/install/sass-plus/") {
+      if (window.location.pathname == "/install/scss/" || window.location.pathname == "/tr/install/scss/") {
         $(".dn-menu--install").addClass("active");
         $(".dn-menu--install-child").removeClass("hidden");
-        $(".dn-menu--install-child__sass-plus").addClass("active");
+        $(".dn-menu--install-child__scss").addClass("active");
       }
-      if (window.location.pathname == "/install/sass-plus/") {
-        keydown("/install/scss-plus/#install-scss-plus","/install/less-plus/#install-less-plus");
+      if (window.location.pathname == "/install/scss/") {
+        keydown("/install/scss-plus/#install-scss-plus","/install/sass/#install-sass");
       }
-      if (window.location.pathname == "/tr/install/sass-plus/") {
-        keydown("/tr/install/scss-plus/#install-scss-plus","/tr/install/less-plus/#install-less-plus");
+      if (window.location.pathname == "/tr/install/scss/") {
+        keydown("/tr/install/scss-plus/#install-scss-plus","/tr/install/sass/#install-sass");
       }
 
-    // less-plus
+    // sass
 
-      if (window.location.pathname == "/install/less-plus/" || window.location.pathname == "/tr/install/less-plus/") {
+      if (window.location.pathname == "/install/sass/" || window.location.pathname == "/tr/install/sass/") {
         $(".dn-menu--install").addClass("active");
         $(".dn-menu--install-child").removeClass("hidden");
-        $(".dn-menu--install-child__less-plus").addClass("active");
+        $(".dn-menu--install-child__sass").addClass("active");
       }
-      if (window.location.pathname == "/install/less-plus/") {
-        keydown("/install/sass-plus/#install-sass-plus","/install/stylus-plus/#install-stylus-plus");
+      if (window.location.pathname == "/install/sass/") {
+        keydown("/install/scss/#install-scss","/install/less/#install-less");
       }
-      if (window.location.pathname == "/tr/install/less-plus/") {
-        keydown("/tr/install/sass-plus/#install-sass-plus","/tr/install/stylus-plus/#install-stylus-plus");
+      if (window.location.pathname == "/tr/install/sass/") {
+        keydown("/tr/install/scss/#install-scss","/tr/install/less/#install-less");
       }
 
-    // stylus-plus
+    // less
 
-      if (window.location.pathname == "/install/stylus-plus/" || window.location.pathname == "/tr/install/stylus-plus/") {
+      if (window.location.pathname == "/install/less/" || window.location.pathname == "/tr/install/less/") {
         $(".dn-menu--install").addClass("active");
         $(".dn-menu--install-child").removeClass("hidden");
-        $(".dn-menu--install-child__stylus-plus").addClass("active");
+        $(".dn-menu--install-child__less").addClass("active");
       }
-      if (window.location.pathname == "/install/stylus-plus/") {
-        keydown("/install/less-plus/#install-less-plus","/learn/#learn");
+      if (window.location.pathname == "/install/less/") {
+        keydown("/install/sass/#install-sass","/install/stylus/#install-stylus");
       }
-      if (window.location.pathname == "/tr/install/stylus-plus/") {
-        keydown("/tr/install/less-plus/#install-less-plus","/tr/learn/#learn");
+      if (window.location.pathname == "/tr/install/less/") {
+        keydown("/tr/install/sass/#install-sass","/tr/install/stylus/#install-stylus");
+      }
+
+    // stylus
+
+      if (window.location.pathname == "/install/stylus/" || window.location.pathname == "/tr/install/stylus/") {
+        $(".dn-menu--install").addClass("active");
+        $(".dn-menu--install-child").removeClass("hidden");
+        $(".dn-menu--install-child__stylus").addClass("active");
+      }
+      if (window.location.pathname == "/install/stylus/") {
+        keydown("/install/less/#install-less","/learn/#learn");
+      }
+      if (window.location.pathname == "/tr/install/stylus/") {
+        keydown("/tr/install/less/#install-less","/tr/learn/#learn");
       }
 
   // learn
