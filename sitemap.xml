@@ -7,6 +7,9 @@
     <loc>http://flexible.gs/learn/auto/</loc>
   </url>
   <url>
+    <loc>http://flexible.gs/framework/learn/base/</loc>
+  </url>
+  <url>
     <loc>http://flexible.gs/learn/baseline/</loc>
   </url>
   <url>
@@ -17,6 +20,9 @@
   </url>
   <url>
     <loc>http://flexible.gs/learn/bottom/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/framework/learn/breakpoint/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/learn/breakpoint/</loc>
@@ -40,6 +46,9 @@
     <loc>http://flexible.gs/learn/flexbox/</loc>
   </url>
   <url>
+    <loc>http://flexible.gs/framework/learn/font-family/</loc>
+  </url>
+  <url>
     <loc>http://flexible.gs/learn/gutter/</loc>
   </url>
   <url>
@@ -49,19 +58,19 @@
     <loc>http://flexible.gs/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/compatibility/</loc>
-  </url>
-  <url>
     <loc>http://flexible.gs/install/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/learn/</loc>
+    <loc>http://flexible.gs/compatibility/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/future/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/motivation/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/learn/last/</loc>
@@ -109,6 +118,9 @@
     <loc>http://flexible.gs/install/scss-plus/</loc>
   </url>
   <url>
+    <loc>http://flexible.gs/framework/install/scss/</loc>
+  </url>
+  <url>
     <loc>http://flexible.gs/install/scss/</loc>
   </url>
   <url>
@@ -133,6 +145,9 @@
     <loc>http://flexible.gs/tr/learn/auto/</loc>
   </url>
   <url>
+    <loc>http://flexible.gs/tr/framework/learn/base/</loc>
+  </url>
+  <url>
     <loc>http://flexible.gs/tr/learn/baseline/</loc>
   </url>
   <url>
@@ -143,6 +158,9 @@
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/bottom/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/framework/learn/breakpoint/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/breakpoint/</loc>
@@ -166,6 +184,9 @@
     <loc>http://flexible.gs/tr/learn/flexbox/</loc>
   </url>
   <url>
+    <loc>http://flexible.gs/tr/framework/learn/font-family/</loc>
+  </url>
+  <url>
     <loc>http://flexible.gs/tr/learn/gutter/</loc>
   </url>
   <url>
@@ -175,19 +196,19 @@
     <loc>http://flexible.gs/tr/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/tr/compatibility/</loc>
-  </url>
-  <url>
     <loc>http://flexible.gs/tr/install/</loc>
   </url>
   <url>
-    <loc>http://flexible.gs/tr/learn/</loc>
+    <loc>http://flexible.gs/tr/compatibility/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/future/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/motivation/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/learn/last/</loc>
@@ -233,6 +254,9 @@
   </url>
   <url>
     <loc>http://flexible.gs/tr/install/scss-plus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/framework/install/scss/</loc>
   </url>
   <url>
     <loc>http://flexible.gs/tr/install/scss/</loc>

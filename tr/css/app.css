@@ -5063,8 +5063,10 @@ pre {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  text-align: left; }
+  text-align: left;
+  white-space: pre-wrap; }
   pre .comment {
+    white-space: nowrap;
     color: #a1a1a1; }
     pre .comment span {
       background: transparent;
@@ -5129,6 +5131,7 @@ pre {
 #css--menu,
 #bem--menu,
 #scss--menu,
+#framework-scss--menu,
 #sass--menu,
 #less--menu,
 #stylus--menu {
