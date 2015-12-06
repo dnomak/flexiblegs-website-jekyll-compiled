@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>flexible.gs - Flexible Grid System</title>
+  <meta name="description" content="Flexible Grid System is a Responsive CSS Framework. (CSS, Sass, Less and Stylus) 5.2.0 Released · Frontend Development Tools · @dnomak" />
+  <meta name="keywords" content="flexible, grid system, responsive, css framework, sass, less, frontend development tools, dnomak, front-end developer" />
+  <meta name="robots" content="All" />
+  <link rel="canonical" href="http://flexible.gs" />
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/flexiblegs.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href="css/flexiblegs.style.css" rel="stylesheet">
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-25094721-4', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script type="text/javascript">
+      var disqus_shortname = 'flexiblegs';
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+</head>
+<body>
+<div class="wrapper">
+
+  <!-- Header Wrapper -->
+
+    <!-- Menu -->
+      <div id="menu">
+        <div class="container">
+          <div class="wrap animated fadeInDown">
+            <div class="xl-5-3 lg-10-8 xs-1">
+                <div class="wrap gutter-10-xs gutter-out-xs text-left">
+                    <div class="md-4-1 sm-2-1">
+                        <a href="/grid-gutters/" class="h3"><i class="fa fa-columns"></i> Grid <b>Gutters</b></a>
+                    </div>
+                    <div class="md-4-1 sm-2-1">
+                        <a href="/grid-aligns/" class="h3"><i class="fa fa-cog"></i> Grid <b>Aligns</b></a>
+                    </div>
+                    <div class="md-4-2 text-center">
+                        <div class="h2 hover-change"><b>All Columns</b></div>
+                    </div>
+                </div>
+                <a href="#" class="close"><i class="fa fa-times fa-2x"></i></a>
+            </div>
+          </div>
+          <div class="wrap animated flipInY">
+              <div class="xl-5-3 lg-10-8 xs-1">
+                <div class="columns">
+                  <a href="/12-column-grid/" class="wrap gutter-2-xs text-right">
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                  </a>
+                  <a href="/11-column-grid/" class="wrap gutter-2-xs text-right">
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                  </a>
+                  <a href="/10-column-grid/" class="wrap gutter-2-xs text-right">
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                  </a>
+                  <a href="/9-column-grid/" class="wrap gutter-2-xs text-right">
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                  </a>
+                  <a href="/8-column-grid/" class="wrap gutter-2-xs text-right">
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                  </a>
+                  <a href="/7-column-grid/" class="wrap gutter-2-xs text-right">
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                  </a>
+                  <a href="/6-column-grid/" class="wrap gutter-2-xs text-right">
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                  </a>
+                  <a href="/5-column-grid/" class="wrap gutter-2-xs text-right">
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                  </a>
+                  <a href="/4-column-grid/" class="wrap gutter-2-xs text-right">
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                  </a>
+                  <a href="/3-column-grid/" class="wrap gutter-2-xs text-right">
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                  </a>
+                  <a href="/2-column-grid/" class="wrap gutter-2-xs text-right">
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                    <div class="xs-12-1"><div class="column-link"></div></div>
+                  </a>
+                  <div class="wrap total">
+                    <div class="xs-1">
+                      <i class="fa fa-plus fa-2x"></i>
+                      <div class="column-link active"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="wrap gutter-5-xs gutter-out-xs animated fadeInUp">
+            <div class="wrap">
+              <div class="xl-5-3 lg-10-8 xs-1">
+                <h1>flexible.gs</h1>
+                <h2>Flexible Grid System</h2>
+              </div>
+            </div>
+            <div class="xl-12-2 lg-12-3 md-12-4 sm-10-4 xs-2-1">
+              <a href="http://codepen.io/dnomak/pen/KwWJpm?editors=100" target="_blank" class="btn btn-white">Flexible CSS</a>
+            </div>
+            <div class="xl-12-2 lg-12-3 md-12-4 sm-10-4 xs-2-1">
+              <a href="https://github.com/flexiblegs/flexiblegs-css" target="_blank" class="btn btn-white"><span>View on Github</span></a>
+            </div>
+          </div>
+          <div class="wrap animated fadeInUp">
+            <div class="xs-1">
+              <div class="h4 text-center">
+                <a href="https://github.com/dnomak/frontend-folder" class="frontend-folder" target="_blank"><i class="fa fa-folder-open"></i> <b>Frontend Folder</b> <span>View on Github</span><!-- <div class="new-sf">new</div> --></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Header -->
+      <header id="header">
+        <div class="container">
+          <div class="wrap gutter-5-xs gutter-out-xs animated fadeInDown">
+            <div class="xs-1">
+              <div class="wrap">
+                <div class="xl-5-3 lg-10-8 xs-1">
+                  <a href="https://github.com/flexiblegs/flexiblegs-rails" target="_blank" title="Using Ruby on Rails?" class="flexiblegs-rails">Using <b>Ruby on Rails</b> ?<!-- <div class="new-gem">new</div> --></a>
+                  <h1><a href="/" title="Grid System">flexible.gs</a></h1>
+                  <h2>Flexible Grid System</h2>
+                  <a href="#" title="Grid System" class="navicon"><i class="fa fa-bars fa-2x"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="xl-12-2 lg-12-3 md-12-4 sm-10-4 xs-2-1">
+              <a href="http://codepen.io/dnomak/pen/KwWJpm?editors=100" target="_blank" class="btn btn-white">Flexible CSS<div class="new-version">new</div></a>
+            </div>
+            <div class="xl-12-2 lg-12-3 md-12-4 sm-10-4 xs-2-1">
+              <a href="https://github.com/flexiblegs/flexiblegs-css" target="_blank" class="btn btn-white"><span>View on Github</span></a>
+            </div>
+          </div>
+          <div class="wrap animated fadeInUp">
+            <div class="xs-1">
+              <div class="wrap">
+                <div class="xl-5-3 lg-10-8 xs-1 text-left">
+                  <div class="padding-rl">
+                    <h3 class="text-left">Install CSS</h3>
+                    <a href="https://twitter.com/dnomak/status/527920775177981952" class="compatible" target="_blank"><b>flexible.gs</b> is compatible with <b>bootstrap</b> and <b>foundation</b></a>
+                    <pre class="black-bg">&lt;head&gt;<br/>  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;<span>&lt;link rel=&quot;stylesheet&quot; href=&quot;stylesheets/flexiblegs/flexiblegs.min.css&quot;&gt;</span><br/>  &lt;link rel=&quot;stylesheet&quot; href=&quot;stylesheets/flexiblegs/flexiblegs.styles.css&quot;&gt;<br/>&lt;/head&gt;</pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="xs-1">
+              <div class="wrap gutter-5-xs gutter-out-xs">
+                <div class="xl-5-3 lg-10-8 xs-1 text-left">
+                  <div class="wrap">
+                    <div class="sm-3-1 xs-2-1">
+                      <a href="http://codepen.io/dnomak/pen/wBzdzj?editors=110" target="_blank" class="h4"><i class="fa fa-folder-open"></i>&nbsp;&nbsp;Flexible <b class="renk">Scss Plus</b></a>
+                    </div>
+                    <div class="sm-3-1 xs-2-1">
+                      <a href="http://codepen.io/dnomak/pen/yyVXQa?editors=110" target="_blank" class="h4"><i class="fa fa-folder-open"></i>&nbsp;&nbsp;Flexible <b class="renk">Less Plus</b></a>
+                    </div>
+                    <div class="sm-3-1">
+                      <a href="http://codepen.io/dnomak/pen/EaZPYw?editors=110" target="_blank" class="h4"><i class="fa fa-folder-open"></i>&nbsp;&nbsp;Flexible <b class="renk">Stylus Plus</b></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrap animated fadeInDown">
+            <div class="xl-12-4 lg-12-6 md-12-8 xs-1">
+              <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=flexiblegs" id="_carbonads_js"></script>
+            </div>
+          </div>
+        </div>
+      </header>
+
+    <!-- Social Buttons -->
+      <div class="social-buttons-bg">
+        <div class="wrap animated fadeIn">
+          <div class="xs-1">
+            <span><iframe src="http://ghbtns.com/github-btn.html?user=flexiblegs&repo=flexiblegs-css&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="97" height="20"></iframe></span>
+            <span><iframe src="http://ghbtns.com/github-btn.html?user=flexiblegs&repo=flexiblegs-css&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="93" height="20"></iframe></span>
+            <span><a href="https://twitter.com/flexiblegs" data-width="206px" class="twitter-follow-button" data-dnt="true"></a></span>
+            <span><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://flexible.gs" data-text="Flexible Grid System" data-via="dnomak"></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></span>
+          </div>
+        </div>
+      </div>
+
+  <!-- Main -->
+    <article id="main">
+      <div class="container">
+        <div class="device-hidden">
+          <!-- wrap -->
+            <div class="wrap" style="line-height: 0;">
+              <div class="xl-10-2 md-10-4 xs-4-2">
+                <div class="line-vertical"></div>
+                <div class="circle animated flipInY">
+                  <h1>wrap</h1>
+                  <h4>Max Width</h4>
+                  <h6>a Hundred Percent</h6>
+                </div>
+                <div class="line-vertical"></div>
+              </div>
+            </div>
+            <div class="wrap" style="line-height: 0;">
+              <div class="xl-10-8">
+                <div class="line-horizantal"></div>
+              </div>
+            </div>
+          <!-- Device -->
+            <div class="wrap" style="line-height: 0;">
+                <div class="xl-10-2 md-10-4 xs-10-8">
+                  <div class="line-vertical"></div>
+                  <div class="circle animated flipInY xlstyle">
+                    <h1>xl</h1>
+                    <h4>Desktop, Notebook</h4>
+                    <h6>Equal to the maximum width</h6>
+                    <svg id="macbook" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1484 862" enable-background="new 0 0 1484 862" xml:space="preserve">
+                      <path class="path1" d="M1444,862h-90h-50h-50H230h-50h-50H40c0,0-40-6.29-40-14.001 C0,835.783,0,820,0,820h130v-8v-50V50c0-27.614,22.386-50,50-50h1124c27.614,0,50,22.386,50,50v712v50v8h130c0,0,0,15.783,0,27.999 C1484,855.71,1444,862,1444,862z"/>
+                      <path class="path2" d="M1444,862h-90h-50h-50H230h-50h-50H40c0,0-40-6.29-40-14.001 C0,835.783,0,820,0,820h130v-8v-50V50c0-27.614,22.386-50,50-50h1124c27.614,0,50,22.386,50,50v712v50v8h130c0,0,0,15.783,0,27.999 C1484,855.71,1444,862,1444,862z M637,820.5c0,8.56,6.94,15.5,15.5,15.5h179c8.56,0,15.5-6.94,15.5-15.5V820H637V820.5z M1312,50 H172v712h1140V50z"/>
+                    </svg>
+                  </div>
+                  <div class="line-vertical"></div>
+                </div>
+                <div class="xl-10-2 md-10-4 xs-10-8">
+                  <div class="line-vertical"></div>
+                  <div class="circle animated flipInY lgstyle">
+                    <h1>lg</h1>
+                    <h4>Tablet (Landscape)</h4>
+                    <h6>Maximum width 1024 pixels</h6>
+                    <svg id="ipad-landscape" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1244 848" enable-background="new 0 0 1244 848" xml:space="preserve">
+                      <path class="path1" d="M1244,60v728c0,33.137-26.863,60-60,60H60 c-33.137,0-60-26.863-60-60V60C0,26.863,26.863,0,60,0h1124C1217.137,0,1244,26.863,1244,60z"/>
+                      <path class="path2" d="M1244,60v728c0,33.137-26.863,60-60,60H60 c-33.137,0-60-26.863-60-60V60C0,26.863,26.863,0,60,0h1124C1217.137,0,1244,26.863,1244,60z M1224,424c0-19.33-15.67-35-35-35 c-19.33,0-35,15.67-35,35c0,19.33,15.67,35,35,35C1208.33,459,1224,443.33,1224,424z M110,40v768h1024V40H110z"/>
+                    </svg>
+                  </div>
+                  <div class="line-vertical"></div>
+                </div>
+                <div class="xl-10-2 md-10-4 xs-10-8">
+                  <div class="line-vertical"></div>
+                  <div class="circle animated flipInY mdstyle">
+                    <h1>md</h1>
+                    <h4>Tablet (Portrait)</h4>
+                    <h6>Maximum width 768 pixels</h6>
+                    <svg id="ipad-portrait" version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 848 1244" enable-background="new 0 0 848 1244" xml:space="preserve">
+                      <path class="path1" d="M788,1244H60c-33.137,0-60-26.863-60-60V60C0,26.863,26.863,0,60,0 h728c33.137,0,60,26.863,60,60v1124C848,1217.137,821.137,1244,788,1244z"/>
+                      <path class="path2" d="M788,1244H60c-33.137,0-60-26.863-60-60V60C0,26.863,26.863,0,60,0 h728c33.137,0,60,26.863,60,60v1124C848,1217.137,821.137,1244,788,1244z M424,1224c19.33,0,35-15.67,35-35c0-19.33-15.67-35-35-35 c-19.33,0-35,15.67-35,35C389,1208.33,404.67,1224,424,1224z M808,110H40v1024h768V110z"/>
+                    </svg>
+                  </div>
+                  <div class="line-vertical"></div>
+                </div>
+                <div class="xl-10-2 md-10-4 xs-10-8">
+                  <div class="line-vertical"></div>
+                  <div class="circle animated flipInY smstyle">
+                    <h1>sm</h1>
+                    <h4>Mobile (Landscape)</h4>
+                    <h6>Maximum width 667 pixels</h6>
+                    <svg id="iphone-landscape" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 847 415" enable-background="new 0 0 847 415" xml:space="preserve">
+                      <path class="path1" d="M50,0h747c27.614,0,50,22.386,50,50v315c0,27.614-22.386,50-50,50H50c-27.614,0-50-22.386-50-50V50 C0,22.386,22.386,0,50,0z"/>
+                      <path class="path2" d="M797,0H50C22.386,0,0,22.386,0,50v315c0,27.614,22.386,50,50,50h747c27.614,0,50-22.386,50-50V50 C847,22.386,824.614,0,797,0z M757,395H90V20h667V395z M802,239c-17.672,0-32-14.326-32-32s14.328-32,32-32 c17.674,0,32,14.326,32,32S819.674,239,802,239z"/>
+                    </svg>
+                  </div>
+                  <div class="line-vertical"></div>
+                </div>
+                <div class="xl-10-2 md-10-4 xs-10-8">
+                  <div class="line-vertical"></div>
+                  <div class="circle animated flipInY xsstyle">
+                    <h1>xs</h1>
+                    <h4>Mobile (Portrait)</h4>
+                    <h6>Maximum width 414 pixels</h6>
+                    <svg id="iphone-portrait" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 454 916" enable-background="new 0 0 454 916" xml:space="preserve">
+                      <path class="path1"  d="M50,0h354c27.614,0,50,22.386,50,50v816c0,27.614-22.386,50-50,50 H50c-27.614,0-50-22.386-50-50V50C0,22.386,22.386,0,50,0z"/>
+                      <path class="path2" d="M404,916H50c-27.614,0-50-22.386-50-50V50C0,22.386,22.386,0,50,0 h354c27.614,0,50,22.386,50,50v816C454,893.614,431.614,916,404,916z M227,903c17.673,0,32-14.327,32-32s-14.327-32-32-32 s-32,14.327-32,32S209.327,903,227,903z M434,90H20v736h414V90z"/>
+                    </svg>
+                  </div>
+                  <div class="line-vertical"></div>
+                </div>
+                <div class="wrap">
+                  <div class="xl-10-8 md-10-4">
+                    <div class="line-horizantal"></div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+      <!-- Readme -->
+        <div class="wrap">
+          <div class="xl-10-2 md-10-4 xs-10-8 text-center">
+            <div class="line-vertical"></div>
+            <a href="https://github.com/flexiblegs/flexiblegs-css" target="_blank" class="circle readme">
+              <i class="fa fa-book fa-2x"></i>
+              <h1>Read Me</h1>
+              <h6>on Github</h6>
+            </a>
+            <div class="line-vertical"></div>
+          </div>
+        </div>
+
+      </div>
+      <!-- Example Code Snippet -->
+        <div class="example-code-bg text-center">
+          <div class="container">
+            <div class="wrap text-left">
+              <div class="padding-rl">
+                <div class="wrap">
+                  <div class="xl-10-8">
+                    <div class="wrap">
+                      <div class="md-2-1 text-left">
+                        <div class="h3">Example Code Snippet</div>
+                      </div>
+                      <div class="md-2-1 text-right">
+                        <div class="h3"><a href="example.html" class="h5" target="_blank"><i class="fa fa-eye"></i> View example page</a></div>
+                      </div>
+                    </div>
+<pre>&lt;div class=&quot;wrap xl-gutter-10 xl-gutter-outside&quot;&gt;
+  &lt;div class=&quot;col <span class="xlstyle">xl-3-12</span> <span class="lgstyle">lg-4-11</span> <span class="mdstyle">md-6-8</span> <span class="smstyle">sm-6-12</span> <span class="xsstyle">xs-1-1</span>&quot;&gt;01&lt;/div&gt;
+  &lt;div class=&quot;col <span class="xlstyle">xl-9-12</span> <span class="lgstyle">lg-7-11</span> <span class="mdstyle">md-1-1</span> <span class="smstyle">sm-1-1</span> <span class="xsstyle">xs-1-1</span>&quot;&gt;02&lt;/div&gt;
+  &lt;div class=&quot;col <span class="xlstyle">xl-1-1</span> <span class="lgstyle">lg-1-1</span> <span class="mdstyle">md-1-1</span> <span class="smstyle">sm-1-1</span> <span class="xsstyle">xs-1-1</span>&quot;&gt;03&lt;/div&gt;
+  &lt;div class=&quot;col <span class="xlstyle">xl-3-10</span> <span class="lgstyle">lg-3-12</span> <span class="mdstyle">md-1-2</span> <span class="smstyle">sm-6-12</span> <span class="xsstyle">xs-1-1</span>&quot;&gt;04&lt;/div&gt;
+  &lt;div class=&quot;col <span class="xlstyle">xl-7-10</span> <span class="lgstyle">lg-9-12</span> <span class="mdstyle">md-1-2</span> <span class="smstyle">sm-6-12</span> <span class="xsstyle">xs-1-1</span>&quot;&gt;05&lt;/div&gt;
+  &lt;div class=&quot;col <span class="xlstyle">xl-1-5</span> <span class="lgstyle">lg-4-12</span> <span class="mdstyle">md-1-2</span> <span class="smstyle">sm-4-12</span> <span class="xsstyle">xs-1-2</span>&quot;&gt;06&lt;/div&gt;
+  &lt;div class=&quot;col <span class="xlstyle">xl-1-5</span> <span class="lgstyle">lg-4-12</span> <span class="mdstyle">md-1-2</span> <span class="smstyle">sm-4-12</span> <span class="xsstyle">xs-1-2</span>&quot;&gt;07&lt;/div&gt;
+  &lt;div class=&quot;col <span class="xlstyle">xl-1-5</span> <span class="lgstyle">lg-4-12</span> <span class="mdstyle">md-1-2</span> <span class="smstyle">sm-4-12</span> <span class="xsstyle">xs-1-2</span>&quot;&gt;08&lt;/div&gt;
+  &lt;div class=&quot;col <span class="xlstyle">xl-1-5</span> <span class="lgstyle">lg-6-12</span> <span class="mdstyle">md-1-2</span> <span class="smstyle">sm-6-12</span> <span class="xsstyle">xs-1-2</span>&quot;&gt;09&lt;/div&gt;
+  &lt;div class=&quot;col <span class="xlstyle">xl-1-5</span> <span class="lgstyle">lg-6-12</span> <span class="mdstyle">md-1-1</span> <span class="smstyle">sm-6-12</span> <span class="xsstyle">xs-1-1</span>&quot;&gt;10&lt;/div&gt;
+  &lt;div class=&quot;col <span class="xlstyle">xl-2-4</span> <span class="lgstyle">lg-3-6</span> <span class="mdstyle">md-5-10</span> <span class="smstyle">sm-1-1</span> <span class="xsstyle">xs-1-1</span>&quot;&gt;11&lt;/div&gt;
+  &lt;div class=&quot;col <span class="xlstyle">xl-2-4</span> <span class="lgstyle">lg-3-6</span> <span class="mdstyle">md-5-10</span> <span class="smstyle">sm-1-1</span> <span class="xsstyle">xs-1-1</span>&quot;&gt;12&lt;/div&gt;
+&lt;/div&gt;</pre>
+                  </div>
+                </div>
+                <!-- Device Button -->
+                  <div class="color-circle">
+                    <a class="xlstyle-circle active"><h1>xl</h1></a>
+                    <a class="lgstyle-circle"><h1>lg</h1></a>
+                    <a class="mdstyle-circle"><h1>md</h1></a>
+                    <a class="smstyle-circle"><h1>sm</h1></a>
+                    <a class="xsstyle-circle"><h1>xs</h1></a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="device-hidden">
+        <!-- Search Bar -->
+          <div class="line-vertical"></div>
+          <div class="wrap">
+            <div class="xl-12-6 lg-12-8 xs-12">
+              <div class="search-bar">
+                <div class="wrap">
+                  <div class="md-12-1 xs-10-1">
+                    <a href="#" class="home">
+                      <i class="fa fa-home fa-2x"></i>
+                    </a>
+                  </div>
+                  <div class="md-12-10 xs-10-8">
+                    <div class="url">
+                      <input type="text" placeholder="example.html" value="http://">
+                    </div>
+                  </div>
+                  <div class="md-12-1 xs-10-1">
+                    <a href="#" class="refresh">
+                      <i class="fa fa-refresh fa-2x"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line-vertical"></div>
+          <div class="line-vertical"></div>
+        <!-- Device -->
+          <div class="macbook-big"></div>
+          <div class="ipad-landscape-big"></div>
+          <div class="ipad-portrait-big"></div>
+          <div class="iphone-landscape-big"></div>
+          <div class="iphone-portrait-big"></div>
+      </div>
+    </article>
+
+  <!-- Footer Wrapper -->
+
+    <!-- Disqus -->
+      <div class="line-vertical"></div>
+      <div class="line-vertical"></div>
+      <div class="homepage disqus">
+        <div class="container">
+          <div class="wrap text-left">
+            <div id="disqus_thread"></div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Donate -->
+      <div id="donate">
+        <div class="container">
+          <div class="line-vertical"></div>
+          <div class="wrap">
+            <div class="xl-12-6 lg-12-8 md-12-10 text-center">
+              <div class="line-vertical"></div>
+              <div class="circle donate">
+                <div class="h6">Donate with</div>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="NHEUHUB8863NS">
+                <input type="image" src="http://flexible.gs/svg/ppcom.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/tr_TR/i/scr/pixel.gif" width="1" height="1" alt="PayPal">
+                </form>
+                <h4>
+                  Thank you for donation <br/>
+                  <a href="https://twitter.com/justinavery" target="_blank">Justin Avery</a>, Karin De Uriarte Langholz and <a href="https://twitter.com/crp_underground" target="_blank">Caio Ribeiro Pereira</a></h4>
+                <hr>
+                <h4>Thank you for <a href="https://github.com/flexiblegs/flexiblegs-rails" target="_blank"><b>flexiblegs-rails</b></a> development <a href="https://twitter.com/sdogruyol" target="_blank">@sdogruyol</a></h4>
+                <hr>
+                <h4>Thank you for dribbble invitation <a href="https://dribbble.com/mustafacetin" target="_blank">@mustafacetin</a></h4>
+                <h3><a href="https://dribbble.com/dnomak" class="dribble-color" target="_blank"><i class="fa fa-dribbble fa-2x"></i></i></a></h3>
+              </div>
+              <div class="line-vertical"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Coming Soon -->
+      <div class="wrap">
+        <div class="xl-12-4 lg-12-5 md-10-6 sm-10-8">
+          <div class="line-vertical"></div>
+            <a href="https://twitter.com/dnomak" target="_blank" class="circle comingsoon h3 text-center">
+              <i class="fa fa-cog fa-spin fa-lg"></i><br/><b>Documentation</b> and<br>New Website<br>
+              <br><span>Coming Soon</span>
+              <h6><i class="fa fa-twitter fa-lg"></i> <b>Follow me</b></h6>
+            </a>
+          <div class="line-vertical"></div>
+        </div>
+      </div>
+      <div class="line-vertical"></div>
+
+    <!-- Footer -->
+      <footer id="footer">
+        <div class="wrap">
+          <div class="xs-1">
+            <div class="social-media">
+              <a href="https://dribbble.com/dnomak" target="_blank"><i class="fa fa-dribbble fa-2x"></i></i></a>
+              <a href="https://github.com/dnomak" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+              <a href="http://codepen.io/dnomak/" target="_blank"><i class="fa fa-codepen fa-2x"></i></i></a>
+              <a href="https://twitter.com/dnomak" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="http://instagram.com/dnomak" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+              <a href="http://tr.linkedin.com/in/dnomak/" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            </div>
+            <div class="h1">Doğukan Güven Nomak</div>
+            <div class="h4">I love <a href="http://flexible.gs" target="_blank">Flexible Grid System</a></div>
+            <a href="http://dnomak.com" class="link" target="_blank"><i class="fa fa-link fa-2x"></i></a>
+          </div>
+        </div>
+      </footer>
+
+</div>
+  <!-- jQuery 1.11.1 -->
+  <script src="js/jquery-1.11.1.min.js"></script>
+
+  <!-- main.js -->
+  <script src="js/main.js"></script>
+
+  <!-- jquery.flexiblegs.js -->
+  <script src="js/jquery.flexiblegs.js"></script>
+
+</body>
+</html>
