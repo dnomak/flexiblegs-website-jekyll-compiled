@@ -701,35 +701,6 @@ $(document).on("ready", function() {
       keydown("/tr/compatibility/#compatibility","/tr/future/#future");
     }
 
-  // framework
-
-    if (window.location.pathname == "/framework/install/scss/" || window.location.pathname == "/tr/framework/install/scss/") {
-      $(".dn-menu--framework").addClass("active");
-      $("#framework-scss--menu").css("display", "block");
-    }
-    if (window.location.pathname == "/framework/install/scss/") {
-      keydown("/motivation/#motivation","/future/#future");
-    }
-    if (window.location.pathname == "/tr/framework/install/scss/") {
-      keydown("/tr/motivation/#motivation","/tr/future/#future");
-    }
-
-    // base
-
-      if (window.location.pathname == "/framework/learn/base/" || window.location.pathname == "/tr/framework/learn/base/") {
-        $(".dn-menu--learn").addClass("active");
-        $(".dn-menu--learn-child__base").addClass("active");
-        if (preprocessor == "") {
-          window.location = "?preprocessor=css";
-        }
-      }
-      if (window.location.pathname == "/framework/learn/base/") {
-        keydown("/framework/learn/#learn","/framework/learn/col/?preprocessor=" + preprocessor + "#col-" + preprocessor );
-      }
-      if (window.location.pathname == "/tr/framework/learn/base/") {
-        keydown("/tr/framework/learn/#learn","/tr/framework/learn/col/?preprocessor=" + preprocessor + "#col-" + preprocessor );
-      }
-
   // future
 
     if (window.location.pathname == "/future/" || window.location.pathname == "/tr/future/") {
