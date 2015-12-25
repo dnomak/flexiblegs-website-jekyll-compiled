@@ -5151,10 +5151,10 @@ pre {
   display: inline-block;
   color: #a1a1a1; }
   .dn-style--footer-link b {
-    color: #EC1561;
+    color: #F72848;
     font-weight: bold; }
 .dn-style--wrap {
-  background: #FBD0DF;
+  background: #FCA9B6;
   min-height: 48px;
   position: relative; }
 .dn-style--col {
@@ -5273,7 +5273,7 @@ pre {
     .dn-button--icon .fa-star {
       color: #FFCC00; }
     .dn-button--icon .fa-heart {
-      color: #EC1561; }
+      color: #F72848; }
     .dn-button--icon:hover {
       background: #F5F5F5; }
   .dn-button--link {
@@ -5456,7 +5456,7 @@ pre {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0; }
   .dn-tag--red {
-    background: #EC1561; }
+    background: #F72848; }
   .dn-tag--green {
     background: #12d469; }
   .dn-tag--purple {
