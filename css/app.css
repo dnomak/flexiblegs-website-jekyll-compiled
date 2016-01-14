@@ -5615,19 +5615,7 @@ pre {
 .dn-xl-right {
   text-align: right; }
 
-.youtube {
-  height: 180px; }
-  .youtube iframe {
-    width: 100%;
-    height: 180px; }
-
 @media (max-width: 1024px) {
-  .youtube {
-    height: 360px; }
-    .youtube iframe {
-      width: 100%;
-      height: 360px; }
-
   .dn-md-left {
     text-align: left; }
 
