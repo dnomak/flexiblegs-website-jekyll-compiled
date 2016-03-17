@@ -1,0 +1,122 @@
+.xl-button.active {
+  color: #1094F6;
+  border-color: #1094F6;
+}
+.lg-button.active {
+  color: #F72848;
+  border-color: #F72848;
+}
+.md-button.active {
+  color: #12D469;
+  border-color: #12D469;
+}
+.sm-button.active {
+  color: #973CBD;
+  border-color: #973CBD;
+}
+.xs-button.active {
+  color: #FFCC00;
+  border-color: #FFCC00;
+}
+
+iframe.example {
+  margin:0;
+  padding:0;
+  width:100%;
+  background:#fff;
+}
+
+/* Macbook (and Others) */
+
+.macbook {
+  display: block;
+  height: 862px;
+  background: url(../svg/macbook.svg) center center no-repeat;
+  background-size: 1484px 862px;
+  z-index: 2;
+  position: relative;
+  overflow-y: scroll!important;
+  -webkit-overflow-scrolling: touch!important;
+}
+.macbook iframe.example {
+  margin-top:50px;
+  max-width: 1140px;
+  height: 712px;
+  overflow: hidden;
+}
+
+/* iPad (Landscape) */
+
+.ipad-landscape {
+  display: none;
+  height: 848px;
+  background: url(../svg/ipad-landscape.svg) center center no-repeat;
+  background-size: 1244px 848px;
+  z-index: 2;
+  position: relative;
+  overflow-y: scroll!important;
+  -webkit-overflow-scrolling: touch!important;
+}
+.ipad-landscape iframe.example {
+  margin-top:40px;
+  max-width: 1024px;
+  height: 768px;
+  overflow: hidden;
+}
+
+/* iPad (Portrait) */
+
+.ipad-portrait {
+  display: none;
+  height: 1244px;
+  background: url(../svg/ipad-portrait.svg) center center no-repeat;
+  background-size: 848px 1244px;
+  z-index: 2;
+  position: relative;
+  overflow-y: scroll!important;
+  -webkit-overflow-scrolling: touch!important;
+}
+.ipad-portrait iframe.example {
+  margin-top:110px;
+  max-width: 768px;
+  height: 1024px;
+  overflow: hidden;
+}
+
+/* iPhone (Landscape) */
+
+.iphone-landscape {
+  display: none;
+  height: 415px;
+  background: url(../svg/iphone-landscape.svg) center center no-repeat;
+  background-size: 847px 415px;
+  z-index: 2;
+  position: relative;
+  overflow-y: scroll!important;
+  -webkit-overflow-scrolling: touch!important;
+}
+.iphone-landscape iframe.example {
+  margin-top:20px;
+  max-width: 667px;
+  height: 375px;
+  overflow: hidden;
+}
+
+/* iPhone (Portrait) */
+
+.iphone-portrait {
+  display: none;
+  height: 916px;
+  background: url(../svg/iphone-portrait.svg) center center no-repeat;
+  background-size: 454px 916px;
+  z-index: 2;
+  position: relative;
+  overflow-y: scroll!important;
+  -webkit-overflow-scrolling: touch!important;
+}
+.iphone-portrait iframe.example {
+  margin-top:90px;
+  max-width: 414px;
+  height: 736px;
+  overflow: hidden;
+}
