@@ -1,263 +1,263 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://flexible.gs/learn/around/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/auto/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/baseline/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/install/bem/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/between/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/bottom/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/breakpoint/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/center/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/col-row/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/col/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/install/css/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/first/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/flexbox/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/gutter/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/hidden/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/compatibility/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/install/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/future/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/motivation/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/last/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/left/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/install/less/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/masonry/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/middle/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/normal/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/not-first/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/not-hidden/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/not-last/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/not-reverse/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/outside/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/reverse/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/right/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/install/sass/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/install/scss-plus/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/install/scss/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/install/stylus/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/table/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/top/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/wrap-col/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/learn/wrap/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/around/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/auto/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/baseline/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/install/bem/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/between/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/bottom/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/breakpoint/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/center/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/col-row/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/col/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/install/css/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/first/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/flexbox/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/gutter/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/hidden/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/compatibility/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/install/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/future/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/motivation/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/last/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/left/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/install/less/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/masonry/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/middle/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/normal/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/not-first/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/not-hidden/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/not-last/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/not-reverse/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/outside/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/reverse/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/right/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/install/sass/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/install/scss-plus/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/install/scss/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/install/stylus/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/table/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/top/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/wrap-col/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/tr/learn/wrap/</loc>
-</url>
-<url>
-<loc>http://flexible.gs/responsive-test/index.html</loc>
-<lastmod>2016-03-17T17:35:32+02:00</lastmod>
-</url>
-<url>
-<loc>http://flexible.gs/responsive-test/test.html</loc>
-<lastmod>2016-03-17T17:20:44+02:00</lastmod>
-</url>
+  <url>
+    <loc>http://flexible.gs/learn/around/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/auto/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/baseline/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/install/bem/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/between/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/bottom/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/breakpoint/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/center/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/col-row/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/col/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/install/css/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/first/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/flexbox/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/gutter/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/hidden/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/compatibility/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/install/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/future/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/motivation/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/last/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/left/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/install/less/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/masonry/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/middle/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/normal/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/not-first/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/not-hidden/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/not-last/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/not-reverse/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/outside/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/reverse/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/right/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/install/sass/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/install/scss-plus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/install/scss/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/install/stylus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/table/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/top/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/wrap-col/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/learn/wrap/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/around/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/auto/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/baseline/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/install/bem/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/between/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/bottom/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/breakpoint/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/center/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/col-row/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/col/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/install/css/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/first/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/flexbox/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/gutter/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/hidden/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/compatibility/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/install/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/future/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/motivation/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/last/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/left/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/install/less/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/masonry/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/middle/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/normal/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/not-first/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/not-hidden/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/not-last/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/not-reverse/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/outside/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/reverse/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/right/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/install/sass/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/install/scss-plus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/install/scss/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/install/stylus/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/table/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/top/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/wrap-col/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/tr/learn/wrap/</loc>
+  </url>
+  <url>
+    <loc>http://flexible.gs/responsive-test/index.html</loc>
+    <lastmod>2016-03-17T22:41:21+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://flexible.gs/responsive-test/test.html</loc>
+    <lastmod>2016-03-17T22:41:21+02:00</lastmod>
+  </url>
 </urlset>
